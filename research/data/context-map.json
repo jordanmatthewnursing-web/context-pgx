@@ -1,0 +1,26 @@
+{
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287492/",
+  "doi": "10.1002/cpt.2526",
+  "publicationYear": 2022,
+  "status": "publication-context-review; current guideline updates still require reconciliation",
+  "mappings": [
+    {
+      "code": "CVI ACS PCI",
+      "label": "Cardiovascular: ACS and/or PCI",
+      "location": "Table 2, first classification column and footnote c",
+      "note": "Includes PCI for an acute coronary syndrome or an elective indication."
+    },
+    {
+      "code": "CVI non-ACS non-PCI",
+      "label": "Cardiovascular: outside ACS and PCI",
+      "location": "Table 2, second classification column and footnote d",
+      "note": "The indication is cardiovascular but outside the ACS/PCI context."
+    },
+    {
+      "code": "NVI",
+      "label": "Neurovascular indications",
+      "location": "Table 3 and its footnotes",
+      "note": "Consult the original table for included settings and qualifications."
+    }
+  ]
+}

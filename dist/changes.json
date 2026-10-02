@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "beforeSnapshot": "32bcccb9563bb8786ecb3565aca14754f46c4fb6f2145e708112a52d53c413a8",
+  "afterSnapshot": "b9e899c09ecf593a50ae8e7a7d145d4392e48961f74eb5f76812b9c84104ae42",
+  "summary": {
+    "changedSources": [],
+    "contextMapChanged": false,
+    "cpicRecords": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "fdaContentChanged": false,
+    "activation": "explicit-review-required; candidate does not replace current"
+  },
+  "sourceFiles": [
+    {
+      "file": "drug.json",
+      "before": {
+        "bytes": 272,
+        "file": "drug.json",
+        "retrievedAt": "2026-09-30T00:36:02.420514+00:00",
+        "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+        "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel"
+      },
+      "after": {
+        "bytes": 272,
+        "file": "drug.json",
+        "retrievedAt": "2026-09-30T00:57:09.183166+00:00",
+        "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+        "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel"
+      },
+      "contentChanged": false
+    },
+    {
+      "file": "fda-associations.html",
+      "before": {
+        "bytes": 82435,
+        "file": "fda-associations.html",
+        "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+        "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+        "snapshotNotLabel": true,
+        "sourceType": "fda-association-table",
+        "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+      },
+      "after": {
+        "bytes": 82435,
+        "file": "fda-associations.html",
+        "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+        "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+        "snapshotNotLabel": true,
+        "sourceType": "fda-association-table",
+        "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+      },
+      "contentChanged": false
+    },
+    {
+      "file": "guideline.json",
+      "before": {
+        "bytes": 181,
+        "file": "guideline.json",
+        "retrievedAt": "2026-09-30T00:36:02.493729+00:00",
+        "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+        "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411"
+      },
+      "after": {
+        "bytes": 181,
+        "file": "guideline.json",
+        "retrievedAt": "2026-09-30T00:57:09.266635+00:00",
+        "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+        "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411"
+      },
+      "contentChanged": false
+    },
+    {
+      "file": "publications.json",
+      "before": {
+        "bytes": 2102,
+        "file": "publications.json",
+        "retrievedAt": "2026-09-30T00:36:02.695640+00:00",
+        "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+        "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc"
+      },
+      "after": {
+        "bytes": 2102,
+        "file": "publications.json",
+        "retrievedAt": "2026-09-30T00:57:09.471575+00:00",
+        "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+        "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc"
+      },
+      "contentChanged": false
+    },
+    {
+      "file": "recommendations.json",
+      "before": {
+        "bytes": 23869,
+        "file": "recommendations.json",
+        "retrievedAt": "2026-09-30T00:36:02.593846+00:00",
+        "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+        "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc"
+      },
+      "after": {
+        "bytes": 23869,
+        "file": "recommendations.json",
+        "retrievedAt": "2026-09-30T00:57:09.373297+00:00",
+        "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+        "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc"
+      },
+      "contentChanged": false
+    }
+  ],
+  "recordChanges": [],
+  "scope": "Captured source changes only; no clinical significance is inferred. Neither snapshot is activated by this report."
+}

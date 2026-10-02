@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.venv/
+research/data/snapshots/.lock

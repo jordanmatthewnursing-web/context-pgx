@@ -1,0 +1,30 @@
+[
+  {
+    "file": "drug.json",
+    "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel",
+    "retrievedAt": "2026-09-30T00:36:02.420514+00:00",
+    "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+    "bytes": 272
+  },
+  {
+    "file": "guideline.json",
+    "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411",
+    "retrievedAt": "2026-09-30T00:36:02.493729+00:00",
+    "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+    "bytes": 181
+  },
+  {
+    "file": "recommendations.json",
+    "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc",
+    "retrievedAt": "2026-09-30T00:36:02.593846+00:00",
+    "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+    "bytes": 23869
+  },
+  {
+    "file": "publications.json",
+    "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc",
+    "retrievedAt": "2026-09-30T00:36:02.695640+00:00",
+    "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+    "bytes": 2102
+  }
+]

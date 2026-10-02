@@ -1,0 +1,18 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {parseGenetics,SAMPLE,summarize,MAX_BYTES} from '../dist/genetics.mjs';
+test('Synthetic result is a marker finding, never a phenotype',()=>{const r=parseGenetics(SAMPLE);assert.equal(r.covered,7);assert.deepEqual(r.findings.map(m=>m.state),['detected','not-detected','no-call','not-detected','not-detected','not-detected','not-detected','not-detected']);assert.equal(r.findings[0].copies,1);assert.equal(r.phenotype,null);assert.equal(r.diplotype,null);});
+test('Unreported markers remain missing',()=>{const r=parseGenetics(SAMPLE.replace('rs12248560\t10\t96521657\t--\n',''));assert.equal(r.findings[2].state,'missing');assert.equal(r.covered,7);});
+test('Zero coverage does not suggest normal function',()=>{const r=parseGenetics(SAMPLE.replace(/rs\d+\t[^\n]+\n/g,'')+'rs123\t1\t123\tAA\n');assert.equal(r.covered,0);assert.match(summarize(r).body,/not a normal/);});
+test('Reference calls do not establish normal function',()=>{const r=parseGenetics(SAMPLE.replace('AG','GG').replace('--','CC'));assert.equal(r.covered,8);assert.match(summarize(r).body,/normal metabolism cannot/);});
+test('Multiallelic calls outside the rule are unresolved',()=>{const r=parseGenetics(SAMPLE.replace('AG','CG'));assert.equal(r.findings[0].state,'unsupported');assert.equal(r.covered,6);});
+test('Haploid autosomal call is not interpreted',()=>{assert.equal(parseGenetics(SAMPLE.replace('AG','A')).findings[0].state,'unsupported');});
+test('Order-independent identical duplicates are collapsed',()=>{const r=parseGenetics(SAMPLE+'rs4244285\t10\t96541616\tGA\n');assert.equal(r.duplicates,1);assert.equal(r.covered,7);});
+test('Contradictory duplicate and no-call duplicates fail closed',()=>{for(const call of ['GG','--'])assert.throws(()=>parseGenetics(SAMPLE+`rs4244285\t10\t96541616\t${call}\n`),/Conflicting/);});
+test('Coordinates and chromosome must agree with the identifier',()=>{assert.throws(()=>parseGenetics(SAMPLE.replace('96541616','96541617')),/location/);assert.throws(()=>parseGenetics(SAMPLE.replace('rs4244285\t10','rs4244285\t1')),/location/);});
+test('An alternate identifier at an assessed locus is rejected',()=>{assert.throws(()=>parseGenetics(SAMPLE.replace('rs4244285','i12345')),/identifier/);});
+test('Unknown, unsupported and mixed genome builds are rejected',()=>{for(const text of [SAMPLE.replace('build 37','build 38'),SAMPLE.replace('build 37','unknown'),SAMPLE+'# build 38\n'])assert.throws(()=>parseGenetics(text),/build 37/);});
+test('Negative or unstated strand rejected',()=>{assert.throws(()=>parseGenetics(SAMPLE.replace('positive','negative')),/strand/);assert.throws(()=>parseGenetics(SAMPLE.replace('positive strand','orientation unknown')),/strand/);assert.throws(()=>parseGenetics(SAMPLE+'# negative strand\n'),/strand/);});
+test('Unsupported format, malformed records, binary and excessive input rejected',()=>{for(const text of [SAMPLE.replace('23andMe','Other'),SAMPLE.replace('rsid\tchromosome\tposition\tgenotype','header'),SAMPLE.replace('AG','<script>'),SAMPLE+'\u0000','A'.repeat(MAX_BYTES+1)])assert.throws(()=>parseGenetics(text));});
+test('BOM and Windows line endings work',()=>{assert.equal(parseGenetics('\uFEFF'+SAMPLE.replaceAll('\n','\r\n')).covered,7);});
+test('No unrelated genotypes or raw file text survive in the result',()=>{const r=parseGenetics(SAMPLE+'rs123456\t1\t12\tTT\n');assert.equal(r.records,9);assert.ok(!JSON.stringify(r).includes('rs123456'));assert.ok(!JSON.stringify(r).includes('23andMe'));});

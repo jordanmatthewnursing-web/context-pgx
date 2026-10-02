@@ -1,0 +1,484 @@
+{
+  "status": "private review snapshot; original history retained in canonical source",
+  "transformations": [
+    "Candidate README retained as RELEASE_SETUP.md",
+    "Editorial README and actual screenshot added"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 56,
+      "sha256": "d08652fe6cebd1d107222e4734cd9b88e788f4bc8ee77336737c061c8ce10a03"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1768,
+      "sha256": "284507c96e1a5d39f4300bf4393919b75d2534280bc322b7160b22ab451a1b55"
+    },
+    {
+      "path": "RELEASE_SETUP.md",
+      "bytes": 8563,
+      "sha256": "8529e2fe7e57dffc12e555e0ca7498f2271b87771e63e66bb9fa808ec317e2fb"
+    },
+    {
+      "path": "assets/context-dpyd-desktop.png",
+      "bytes": 128008,
+      "sha256": "a72a716cb6e16bb3c69c04dcdeb93dbf6856931dae2ac1c830470295de972957"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 12006,
+      "sha256": "47e47ab9abea58773396cd68d313b5ddbcc853d3f6fb9a3ac8e17113c52afbfb"
+    },
+    {
+      "path": "dist/changes.json",
+      "bytes": 4370,
+      "sha256": "4fe5b26db6c5f145d5a2f0c6ed019d022e24401df2fc2bca8eafe5400bb21261"
+    },
+    {
+      "path": "dist/config.js",
+      "bytes": 277,
+      "sha256": "3616f0de006c1dc62d51ec2155452a0b57ffc2e996dd0d7ce8968060f9d6c811"
+    },
+    {
+      "path": "dist/evidence.html",
+      "bytes": 6264,
+      "sha256": "6ff8dd2e029c8268f1f4b12c236cf4254621c84c500c6bd9e9593c4d89da2545"
+    },
+    {
+      "path": "dist/evidence.json",
+      "bytes": 166096,
+      "sha256": "32bcccb9563bb8786ecb3565aca14754f46c4fb6f2145e708112a52d53c413a8"
+    },
+    {
+      "path": "dist/genetics-ui.mjs",
+      "bytes": 14904,
+      "sha256": "d1022d668d73c81cce3663b506a7745b6d01fe820908b8f9830344fded49a479"
+    },
+    {
+      "path": "dist/genetics-worker.mjs",
+      "bytes": 485,
+      "sha256": "4c2e5e585df56272d0ee5db1b044d3961820aa2f5dda334887350ecd5f835c27"
+    },
+    {
+      "path": "dist/genetics.css",
+      "bytes": 7703,
+      "sha256": "66f9ad8213d5af77d938998ea7ff01101d0ba0b3890a6e2c903af536699e7689"
+    },
+    {
+      "path": "dist/genetics.mjs",
+      "bytes": 5969,
+      "sha256": "59c975782ff1437c1a54c54cbabfe5ee2b89d2fd481dcd683e4c3a65205af7d8"
+    },
+    {
+      "path": "dist/ibmplexsans-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "dist/import-help.mjs",
+      "bytes": 2253,
+      "sha256": "8c6859ad8fde66b45347478444c82fb5bbfec0e0820b8b6a1c440b0720e07fcc"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 4221,
+      "sha256": "3a6fd03fdd9c18882752fd65fcac1e43cabbfefde60a2e2089140b7cc6af1032"
+    },
+    {
+      "path": "dist/insights.mjs",
+      "bytes": 8678,
+      "sha256": "0b827eb1464234286bc6083240d18430829caadecd5046684b34d9d8bcd237e5"
+    },
+    {
+      "path": "dist/marker-rules.mjs",
+      "bytes": 4183,
+      "sha256": "78d249c8cac179612aef28469d6f09c775a359d60d3bfba3725ff465f4ebf6e4"
+    },
+    {
+      "path": "dist/medication-catalog.mjs",
+      "bytes": 6866,
+      "sha256": "6088c781d8358ac1e404057cc640b586d084e6649d78f2379f5af6815cf9f193"
+    },
+    {
+      "path": "dist/medication-context.mjs",
+      "bytes": 573,
+      "sha256": "db766f659dc69556a4bc30afb261ac307ef0d4158f94e2a7d5c14b02c65b76a8"
+    },
+    {
+      "path": "dist/newsreader-OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "path": "dist/newsreader.woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "path": "dist/plex-sans.woff2",
+      "bytes": 40240,
+      "sha256": "056e4e2459f57a0033c8c9c844ff19d6e42ac8602027803d4345823bcc939818"
+    },
+    {
+      "path": "dist/resource.mjs",
+      "bytes": 1430,
+      "sha256": "ab4a180c967d6fdc396e08120555761882e143e239a20afdd818a01138115faf"
+    },
+    {
+      "path": "dist/review.json",
+      "bytes": 8127,
+      "sha256": "53f22026830b818e25b09c40530374a41b4f6f46b586c71a61c601fa2f6e3820"
+    },
+    {
+      "path": "dist/style.css",
+      "bytes": 7763,
+      "sha256": "9fad7a985e5ee3fe109b7ae1052c26617df85fbf4b02b167963cb695313d355d"
+    },
+    {
+      "path": "docs/GENETIC_READER.md",
+      "bytes": 19161,
+      "sha256": "565fe9e62a071e022565f3a0b5843e3e95e365a2de50bd45083411b9049f996c"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 2225,
+      "sha256": "2d70538948324c29e07c84a28082aa48adea0f251f0e049efd87cf5b69e5f77f"
+    },
+    {
+      "path": "release-manifest.json",
+      "bytes": 17463,
+      "sha256": "2b39a98b593c9eea67c52a8a9d6cf827faa05d10f9a81d4fd6219a30d3e26154"
+    },
+    {
+      "path": "research/.gitignore",
+      "bytes": 26,
+      "sha256": "4cad133d4f0a6cf4bba15f1b8bbae48d6a55f20b94f75487c51a93cc6a5af59f"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 11314,
+      "sha256": "c48a66c6a39351b090a9598a6b0e2d2eae4576762cd150535797fbd2e75ada76"
+    },
+    {
+      "path": "research/data/CPIC_TERMS.md",
+      "bytes": 3234,
+      "sha256": "7d578cb313faefacd8e506dd49ed646af6c2f3743f1218f35adddcdb9025e5a3"
+    },
+    {
+      "path": "research/data/context-map.json",
+      "bytes": 963,
+      "sha256": "6904af9e69243d55f16bea200c28ec5a4fa466381ad75e0418c253e197d4d202"
+    },
+    {
+      "path": "research/data/derived/comparison.json",
+      "bytes": 47763,
+      "sha256": "d60b4b705748330040676a0f1917357e903c6d3d3c78d2219f90131c16faf69c"
+    },
+    {
+      "path": "research/data/derived/evidence-index.json",
+      "bytes": 11401,
+      "sha256": "6f648be9f68510df313c3290159d0d6e7a5ccfc1e6b91af8ad993d4cc3f7ec05"
+    },
+    {
+      "path": "research/data/derived/fda-association.json",
+      "bytes": 1369,
+      "sha256": "86bd668c798adfce86ebbd38faf774eed00a8e8e99772edd6c25636df0907f6c"
+    },
+    {
+      "path": "research/data/derived/guideline-reconciliation.json",
+      "bytes": 6791,
+      "sha256": "7a866e73b69d921f1ebcfd27f9787f4c3d44ca97ba5cdcb4bbd09cd7ea9b9a88"
+    },
+    {
+      "path": "research/data/fda-source-manifest.json",
+      "bytes": 360,
+      "sha256": "a42c4bdb787151dc6082285e525d69cd042c10dae7b1ee17f6cfed1b4d262eff"
+    },
+    {
+      "path": "research/data/raw/drug.json",
+      "bytes": 272,
+      "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a"
+    },
+    {
+      "path": "research/data/raw/fda-associations.html",
+      "bytes": 82435,
+      "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5"
+    },
+    {
+      "path": "research/data/raw/guideline.json",
+      "bytes": 181,
+      "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5"
+    },
+    {
+      "path": "research/data/raw/publications.json",
+      "bytes": 2102,
+      "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a"
+    },
+    {
+      "path": "research/data/raw/recommendations.json",
+      "bytes": 23869,
+      "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b"
+    },
+    {
+      "path": "research/data/review/clopidogrel-recommendation.xlsx",
+      "bytes": 7253,
+      "sha256": "cdad87c86055655059d91f48d5ed0b62ce94bc9bb6d6abd6228646d26e95075f"
+    },
+    {
+      "path": "research/data/review/guideline-page-review.json",
+      "bytes": 1261,
+      "sha256": "34b0880b7665dab01c9d9a69bc8b5a04e9d8e46f22179d57b275dfda0e2728cb"
+    },
+    {
+      "path": "research/data/review/recommendation-manifest.json",
+      "bytes": 260,
+      "sha256": "84cee6735bcf9421a6c45d74f0e947b41e771ea46d594f8bc22c53347655c8ee"
+    },
+    {
+      "path": "research/data/snapshots/32bcccb9563bb8786ecb3565aca14754f46c4fb6f2145e708112a52d53c413a8.json",
+      "bytes": 166096,
+      "sha256": "32bcccb9563bb8786ecb3565aca14754f46c4fb6f2145e708112a52d53c413a8"
+    },
+    {
+      "path": "research/data/snapshots/b9e899c09ecf593a50ae8e7a7d145d4392e48961f74eb5f76812b9c84104ae42.json",
+      "bytes": 166096,
+      "sha256": "b9e899c09ecf593a50ae8e7a7d145d4392e48961f74eb5f76812b9c84104ae42"
+    },
+    {
+      "path": "research/data/snapshots/current.json",
+      "bytes": 105,
+      "sha256": "af23e2ee5849fd4aab2ec214e93be49a11993c35b41c67571712fc5239bba644"
+    },
+    {
+      "path": "research/data/source-manifest.json",
+      "bytes": 1094,
+      "sha256": "7ddf1ee0a7e6d5c0ed0bf2afcb724e9baaf47f127fe351407f877b75c964fc91"
+    },
+    {
+      "path": "research/marker-evidence/manifest.json",
+      "bytes": 6379,
+      "sha256": "758c243d4154a734d6ad2732a311dc10847409f7f5fbf1ac5ec2a8dbe5553482"
+    },
+    {
+      "path": "research/marker-evidence/raw/12248560.json",
+      "bytes": 684161,
+      "sha256": "1d035582efaf6f6b8076afd6a671fe10cbe743d86ab511a4d3ea559157a44794"
+    },
+    {
+      "path": "research/marker-evidence/raw/3918290.json",
+      "bytes": 82010,
+      "sha256": "2ab3af13089be4408669cbcc590377bd234a01a6a897368320001e03183a0bdc"
+    },
+    {
+      "path": "research/marker-evidence/raw/4149056.json",
+      "bytes": 118346,
+      "sha256": "1723b625abd6e62307298fba395ff54aef97907539d3deda1a32423762f02021"
+    },
+    {
+      "path": "research/marker-evidence/raw/4244285.json",
+      "bytes": 365346,
+      "sha256": "fa1c5d673a2301aad0a9a4bd7739f8bc5eb3727fb0acc30acdece89a555cadd7"
+    },
+    {
+      "path": "research/marker-evidence/raw/4986893.json",
+      "bytes": 311944,
+      "sha256": "4778148b4b8e7d893e8c703f2dd27f398d98ecd2dc2305d78128793aeeda8746"
+    },
+    {
+      "path": "research/marker-evidence/raw/55886062.json",
+      "bytes": 70169,
+      "sha256": "55c6bdaac455101f347c6819640ef885fffa62dc6fd49a72c0a653f46d723881"
+    },
+    {
+      "path": "research/marker-evidence/raw/67376798.json",
+      "bytes": 67464,
+      "sha256": "42484cc1a361db7e016d861c0da2ccd9b3fdace38e0389bd93843735e38a78a4"
+    },
+    {
+      "path": "research/marker-evidence/raw/75017182.json",
+      "bytes": 41414,
+      "sha256": "377448a8d177efea9c7967c47292fe1645779bb3937642dae710d833b209f2bb"
+    },
+    {
+      "path": "research/marker-evidence/raw/cpic-2022.pdf",
+      "bytes": 176977,
+      "sha256": "2c135725620d3e6bb4e31777f44deb1a40c30d0a27c91f790ae29c076a584b45"
+    },
+    {
+      "path": "research/medication-evidence/manifest.json",
+      "bytes": 7979,
+      "sha256": "d4ef215a6f8a13089da1dc06c300b7ed2bb38affdf89a06d1cdf99c66bf0f9e4"
+    },
+    {
+      "path": "research/medication-evidence/raw/clopidogrel-2022.pdf",
+      "bytes": 176977,
+      "sha256": "2c135725620d3e6bb4e31777f44deb1a40c30d0a27c91f790ae29c076a584b45"
+    },
+    {
+      "path": "research/medication-evidence/raw/dpyd-2017.pdf",
+      "bytes": 154629,
+      "sha256": "effa7181340ce9b72270a3ffcfdfc061623422cc32b3ee4a30e1c8a4c2210c9f"
+    },
+    {
+      "path": "research/medication-evidence/raw/ppi-2020.pdf",
+      "bytes": 218956,
+      "sha256": "2d2f46f4d4aae3917033c18e50532f1da0e5e8c43e0604b9395a5ed2daef3e73"
+    },
+    {
+      "path": "research/medication-evidence/raw/statins-2022.pdf",
+      "bytes": 813287,
+      "sha256": "09c88067c54c90fb8d6b9b40666e4aa2565124f8c83b24d62c9416bf8891742d"
+    },
+    {
+      "path": "research/research/CASE_STUDY.md",
+      "bytes": 4621,
+      "sha256": "c92e1f927512fb18c9acd530108ebe8e5a2023ddd290954647cb831f9e1d6008"
+    },
+    {
+      "path": "research/scripts/acquire.py",
+      "bytes": 1544,
+      "sha256": "3f570edb9a8cbc2508c2442f83d5acde71e609380034308fb974aa9f833da512"
+    },
+    {
+      "path": "research/scripts/build.py",
+      "bytes": 1519,
+      "sha256": "c937eee6b2d9555ca6874a558e3d7289ccdee02927aca4fa353e4105bdac85ca"
+    },
+    {
+      "path": "research/scripts/change_report.py",
+      "bytes": 1254,
+      "sha256": "bc8a1a3e3d36a9ab085fa083b6fd5f5b0456f092b12919c15c698234117813e6"
+    },
+    {
+      "path": "research/scripts/compare.py",
+      "bytes": 1151,
+      "sha256": "09615232c24ec8c7fab461bc5ed473f80aabe0e5d96dbedcbdf1ce552536eef9"
+    },
+    {
+      "path": "research/scripts/evidence.py",
+      "bytes": 4332,
+      "sha256": "3e53be0f5b977ac4241caea187653793887d8a2dd2ac22d1aa1cbea8c21a7092"
+    },
+    {
+      "path": "research/scripts/fda.py",
+      "bytes": 3063,
+      "sha256": "3be67e65c149f4759533ab67ad4d184b43f078396f6b33715b7a88e9796680f9"
+    },
+    {
+      "path": "research/scripts/reconcile.py",
+      "bytes": 5300,
+      "sha256": "4dcde92b2f94a31d0fcea5fd789edd4379c4ae14240432ac3975225e3950a846"
+    },
+    {
+      "path": "research/scripts/snapshots.py",
+      "bytes": 6918,
+      "sha256": "ee8b29f277b4597efd5d7b5033f6c56dea0d9067de7bf8a82c9c9eba43405204"
+    },
+    {
+      "path": "research/tests/test_change_report.py",
+      "bytes": 1706,
+      "sha256": "d190cd19dd142d2c9b82b39368e99dfc7b0ba1714b492e0133abf2f9fc2849ca"
+    },
+    {
+      "path": "research/tests/test_comparison.py",
+      "bytes": 2309,
+      "sha256": "873b2b3eaa53674d419f5d92b85ed1f806ab0b3c1cd789a641da7eb957b9be27"
+    },
+    {
+      "path": "research/tests/test_evidence.py",
+      "bytes": 2744,
+      "sha256": "d51ac321c33ccc77488bb5d3fd71e8e8df5fc26a11b735413d85daed665fda29"
+    },
+    {
+      "path": "research/tests/test_reconcile.py",
+      "bytes": 1647,
+      "sha256": "89b57c2e9b54c917d1b498f8378673842d404245dc9e74d0d4ffe0f889718d0d"
+    },
+    {
+      "path": "research/tests/test_snapshots.py",
+      "bytes": 4110,
+      "sha256": "89b89512efbe3acb7036011e6154f20bfac917d8f227de8264b0bf2474d4bffa"
+    },
+    {
+      "path": "scripts/replay-findings.mjs",
+      "bytes": 2637,
+      "sha256": "915df1e523487fc58114d6543ba57bcd18f03307a6380322c04e31508a669368"
+    },
+    {
+      "path": "scripts/replay-marker-evidence.py",
+      "bytes": 3343,
+      "sha256": "2e0af07e1713735fea5207f7cef1a45984eb3f4e67ede5cbf2761fafaff6b535"
+    },
+    {
+      "path": "scripts/replay-medication-evidence.py",
+      "bytes": 1814,
+      "sha256": "61ee747046c38b26f78a0c2babc629fffca525547c9622914ef2a5c91698d27a"
+    },
+    {
+      "path": "tests/dpyd.test.mjs",
+      "bytes": 3033,
+      "sha256": "e43d9c3217b9c6ad6baca8bd9c4e828a9a31e5fa704805f55a09f45d69abb33e"
+    },
+    {
+      "path": "tests/evidence-path.test.mjs",
+      "bytes": 2703,
+      "sha256": "5746187772460b98ff0754e449b3e5c3f13887308d85eeeed32fac0f500661e4"
+    },
+    {
+      "path": "tests/fault_server.py",
+      "bytes": 1106,
+      "sha256": "d618a9fe3364cd09e61f1981e7754116a51166792c06c119bb8bbc0b75f3b469"
+    },
+    {
+      "path": "tests/findings-replay.test.mjs",
+      "bytes": 972,
+      "sha256": "bbe9b367d0b2c3b7e803d7729df8d036facfb1e860d0490a9a649bb3317eae72"
+    },
+    {
+      "path": "tests/genetics.test.mjs",
+      "bytes": 3546,
+      "sha256": "d9e4c66065b2b528ba002403bc71460d3f631aeab3cc7c39c068d53e212630ca"
+    },
+    {
+      "path": "tests/import-recovery.test.mjs",
+      "bytes": 891,
+      "sha256": "fd67a396845741bac860ec31d662befb1cfab3902bc53b10ad38a6cdc98484e8"
+    },
+    {
+      "path": "tests/insights.test.mjs",
+      "bytes": 2423,
+      "sha256": "cc3c9d0601f01a0ea28be748cbfb61ff6e7d7429ce4e625f1f033cab0b6c3549"
+    },
+    {
+      "path": "tests/medication-context.test.mjs",
+      "bytes": 1574,
+      "sha256": "5b8f2e2a1c2aca0cb302dcee2a879f413820e8bf5c4b0836db15a16945252df8"
+    },
+    {
+      "path": "tests/resource.test.mjs",
+      "bytes": 1790,
+      "sha256": "93b2c1a6b86c86f6e3bdeac5676932ef430890a9479689db466abfcd59b66781"
+    },
+    {
+      "path": "tests/slco1b1.test.mjs",
+      "bytes": 2379,
+      "sha256": "6fbf5732932c14d6c069ad466602c2ee2366eec09b437792f6ad0db68dec7201"
+    },
+    {
+      "path": "tests/test_marker_evidence.py",
+      "bytes": 2449,
+      "sha256": "228e84c61fc5e00c261052dfa494d7cbb5fa44084a3d511f01af44542593d419"
+    },
+    {
+      "path": "tests/test_medication_evidence.py",
+      "bytes": 1074,
+      "sha256": "b829140e714c7c9b6ada2c0aad9d188093832b56463ac7c55ae39b197078ce70"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1686,
+      "sha256": "10b34f9a8c931d8a2aa46aefdf54a3fd519baf875e7c66289c542aec30b57325"
+    }
+  ]
+}

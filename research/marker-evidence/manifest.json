@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "ruleVersion": "pgx-selected-markers-4",
+  "sources": [
+    {
+      "file": "raw/4244285.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/4244285",
+      "bytes": 365346,
+      "sha256": "fa1c5d673a2301aad0a9a4bd7739f8bc5eb3727fb0acc30acdece89a555cadd7",
+      "retrievedAt": "2026-10-01T01:40:16.524175+00:00"
+    },
+    {
+      "file": "raw/4986893.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/4986893",
+      "bytes": 311944,
+      "sha256": "4778148b4b8e7d893e8c703f2dd27f398d98ecd2dc2305d78128793aeeda8746",
+      "retrievedAt": "2026-10-01T01:40:17.365006+00:00"
+    },
+    {
+      "file": "raw/12248560.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/12248560",
+      "bytes": 684161,
+      "sha256": "1d035582efaf6f6b8076afd6a671fe10cbe743d86ab511a4d3ea559157a44794",
+      "retrievedAt": "2026-10-01T01:40:19.403510+00:00"
+    },
+    {
+      "file": "raw/cpic-2022.pdf",
+      "url": "https://files.cpicpgx.org/data/guideline/publication/clopidogrel/2022/35034351.pdf",
+      "bytes": 176977,
+      "sha256": "2c135725620d3e6bb4e31777f44deb1a40c30d0a27c91f790ae29c076a584b45",
+      "retrievedAt": "2026-10-01T01:40:19.706718+00:00"
+    },
+    {
+      "file": "raw/4149056.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/4149056",
+      "bytes": 118346,
+      "sha256": "1723b625abd6e62307298fba395ff54aef97907539d3deda1a32423762f02021",
+      "retrievedAt": "2026-10-01T04:50:35.565247+00:00"
+    },
+    {
+      "id": "3918290",
+      "file": "raw/3918290.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/3918290",
+      "sha256": "2ab3af13089be4408669cbcc590377bd234a01a6a897368320001e03183a0bdc",
+      "bytes": 82010,
+      "retrievedAt": "2026-10-01T06:17:42.265564+00:00"
+    },
+    {
+      "id": "55886062",
+      "file": "raw/55886062.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/55886062",
+      "sha256": "55c6bdaac455101f347c6819640ef885fffa62dc6fd49a72c0a653f46d723881",
+      "bytes": 70169,
+      "retrievedAt": "2026-10-01T06:17:42.239019+00:00"
+    },
+    {
+      "id": "67376798",
+      "file": "raw/67376798.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/67376798",
+      "sha256": "42484cc1a361db7e016d861c0da2ccd9b3fdace38e0389bd93843735e38a78a4",
+      "bytes": 67464,
+      "retrievedAt": "2026-10-01T06:17:42.346560+00:00"
+    },
+    {
+      "id": "75017182",
+      "file": "raw/75017182.json",
+      "url": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp/75017182",
+      "sha256": "377448a8d177efea9c7967c47292fe1645779bb3937642dae710d833b209f2bb",
+      "bytes": 41414,
+      "retrievedAt": "2026-10-01T06:17:42.222268+00:00"
+    }
+  ],
+  "interpretationReview": {
+    "method": "Explicit source-based mapping, not an independent clinical review",
+    "publication": "10.1002/cpt.2526",
+    "locations": "CPIC 2022 page 1 functional groups, page 3 drug activation. Marker-to-star association checked against NCBI Medical Genetics Summaries, https://www.ncbi.nlm.nih.gov/books/NBK379740/table/diazepam.Te/",
+    "limits": "RefSNP validates coordinates and substitutions. It does not establish a complete star allele, phenotype or treatment decision. SLCO1B1 c.521T>C is not a complete *5 or *15 haplotype assignment. DPYD coding notation is complementary to genomic positive strand. Direct sites only; no proxy, phenotype or activity score."
+  },
+  "selectedRules": [
+    {
+      "id": "rs4244285",
+      "position": 96541616,
+      "reference": "G",
+      "alternate": "A",
+      "allele": "*2",
+      "effect": "no function",
+      "gene": "CYP2C19",
+      "chromosome": "10",
+      "sequence": "NC_000010.10"
+    },
+    {
+      "id": "rs4986893",
+      "position": 96540410,
+      "reference": "G",
+      "alternate": "A",
+      "allele": "*3",
+      "effect": "no function",
+      "gene": "CYP2C19",
+      "chromosome": "10",
+      "sequence": "NC_000010.10"
+    },
+    {
+      "id": "rs12248560",
+      "position": 96521657,
+      "reference": "C",
+      "alternate": "T",
+      "allele": "*17",
+      "effect": "increased function",
+      "gene": "CYP2C19",
+      "chromosome": "10",
+      "sequence": "NC_000010.10"
+    },
+    {
+      "id": "rs4149056",
+      "position": 21331549,
+      "reference": "T",
+      "alternate": "C",
+      "allele": "c.521T>C",
+      "effect": "decreased transport",
+      "gene": "SLCO1B1",
+      "chromosome": "12",
+      "sequence": "NC_000012.11"
+    },
+    {
+      "id": "rs3918290",
+      "position": 97915614,
+      "reference": "C",
+      "alternate": "T",
+      "gene": "DPYD",
+      "chromosome": "1",
+      "sequence": "NC_000001.10",
+      "codingReference": "G",
+      "codingAlternate": "A",
+      "codingStrand": "negative",
+      "codingReferenceSequence": "NM_000110.3 (2017 publication)",
+      "allele": "c.1905+1G>A",
+      "effect": "reduced DPD function association",
+      "directOnly": true
+    },
+    {
+      "id": "rs55886062",
+      "position": 97981343,
+      "reference": "A",
+      "alternate": "C",
+      "gene": "DPYD",
+      "chromosome": "1",
+      "sequence": "NC_000001.10",
+      "codingReference": "T",
+      "codingAlternate": "G",
+      "codingStrand": "negative",
+      "codingReferenceSequence": "NM_000110.3 (2017 publication)",
+      "allele": "c.1679T>G",
+      "effect": "reduced DPD function association",
+      "directOnly": true
+    },
+    {
+      "id": "rs67376798",
+      "position": 97547947,
+      "reference": "T",
+      "alternate": "A",
+      "gene": "DPYD",
+      "chromosome": "1",
+      "sequence": "NC_000001.10",
+      "codingReference": "A",
+      "codingAlternate": "T",
+      "codingStrand": "negative",
+      "codingReferenceSequence": "NM_000110.3 (2017 publication)",
+      "allele": "c.2846A>T",
+      "effect": "reduced DPD function association",
+      "directOnly": true
+    },
+    {
+      "id": "rs75017182",
+      "position": 98045449,
+      "reference": "G",
+      "alternate": "C",
+      "gene": "DPYD",
+      "chromosome": "1",
+      "sequence": "NC_000001.10",
+      "codingReference": "C",
+      "codingAlternate": "G",
+      "codingStrand": "negative",
+      "codingReferenceSequence": "NM_000110.3 (2017 publication)",
+      "allele": "c.1129-5923C>G",
+      "effect": "reduced DPD function association",
+      "directOnly": true
+    }
+  ]
+}

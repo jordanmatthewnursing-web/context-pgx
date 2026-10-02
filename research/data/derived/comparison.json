@@ -1,0 +1,1182 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Source-scope comparison for education; no patient recommendation",
+  "contextMap": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287492/",
+    "doi": "10.1002/cpt.2526",
+    "publicationYear": 2022,
+    "status": "publication-context-review; current guideline updates still require reconciliation",
+    "mappings": [
+      {
+        "code": "CVI ACS PCI",
+        "label": "Cardiovascular: ACS and/or PCI",
+        "location": "Table 2, first classification column and footnote c",
+        "note": "Includes PCI for an acute coronary syndrome or an elective indication."
+      },
+      {
+        "code": "CVI non-ACS non-PCI",
+        "label": "Cardiovascular: outside ACS and PCI",
+        "location": "Table 2, second classification column and footnote d",
+        "note": "The indication is cardiovascular but outside the ACS/PCI context."
+      },
+      {
+        "code": "NVI",
+        "label": "Neurovascular indications",
+        "location": "Table 3 and its footnotes",
+        "note": "Consult the original table for included settings and qualifications."
+      }
+    ]
+  },
+  "cpicRecords": [
+    {
+      "sourceId": 8480390,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Indeterminate",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/7",
+      "sourceRowSha256": "6d67a1615cbc279f25729589776f1f065f913b620bcf36761218740bda4c0c64"
+    },
+    {
+      "sourceId": 8480387,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Intermediate Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/4",
+      "sourceRowSha256": "0848a22cdc7f00ec5d818e0804e7ce2515390bd97c304e3fcec0488de28fda6f"
+    },
+    {
+      "sourceId": 8480386,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Likely Intermediate Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/3",
+      "sourceRowSha256": "bb2e26986badec0927acd82ac097672efa97bdcd4083cd2c04bf6138afbd29cc"
+    },
+    {
+      "sourceId": 8480388,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Likely Poor Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/5",
+      "sourceRowSha256": "fddbace4d21a5e07f8aed1def1b3f1f277afe83ddd1069296355706a4672b84b"
+    },
+    {
+      "sourceId": 8480385,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Normal Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/2",
+      "sourceRowSha256": "e645b74cd5cafbcc40c31442de32df49e229ab30758e8ac96a63272159e6eb42"
+    },
+    {
+      "sourceId": 8480389,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Poor Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/6",
+      "sourceRowSha256": "b37dbc1ff5f5807c0c261a5280353aa445e433133ae6d823ef852dbea8311685"
+    },
+    {
+      "sourceId": 8480384,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Rapid Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/1",
+      "sourceRowSha256": "bad9f9ca70aefd9c672771411dd0330c70d2167f8df84231a749d6eb96c77443"
+    },
+    {
+      "sourceId": 8480383,
+      "sourceVersion": 1,
+      "context": "CVI ACS PCI",
+      "sourceContext": "CVI ACS PCI ",
+      "phenotype": "Ultrarapid Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/0",
+      "sourceRowSha256": "b044b2b815451a9922f6f5368f1ce1ee4044b291dec9bd00238c38e8fcf88145"
+    },
+    {
+      "sourceId": 8480398,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Indeterminate",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/15",
+      "sourceRowSha256": "02d7b433b115513d4c91d5699d60d8a0016254e248840646d91e3faa0b16e343"
+    },
+    {
+      "sourceId": 8480395,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Intermediate Metabolizer",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/12",
+      "sourceRowSha256": "6e479ada32c6d907453dce46d8a71742da1d24b49aabd45af50caf36fd9bf4eb"
+    },
+    {
+      "sourceId": 8480394,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Likely Intermediate Metabolizer",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/11",
+      "sourceRowSha256": "453960f8e7abefc76981bcfe9b69c10e9bd548a546099bcf6414903552c8805b"
+    },
+    {
+      "sourceId": 8480396,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Likely Poor Metabolizer",
+      "classification": "Moderate",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/13",
+      "sourceRowSha256": "fab13445e400a74c96e40129a084481d77a06863bb9a1a1ca0449a3ff05db818"
+    },
+    {
+      "sourceId": 8480393,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Normal Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/10",
+      "sourceRowSha256": "b388fef07a8996d9dda66f7e144eed8bd6da0a60f24fae3fa62688f8ec4847d5"
+    },
+    {
+      "sourceId": 8480397,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Poor Metabolizer",
+      "classification": "Moderate",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/14",
+      "sourceRowSha256": "fff6be20967568d432faee8ab4fb099d3ceae023cbe62e3883b34486ba9ff2c4"
+    },
+    {
+      "sourceId": 8480392,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Rapid Metabolizer",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/9",
+      "sourceRowSha256": "9912d4233f52aefd5105932f16474139d23f012bee1fc4087fa59c58ad27ca77"
+    },
+    {
+      "sourceId": 8480391,
+      "sourceVersion": 1,
+      "context": "CVI non-ACS non-PCI",
+      "sourceContext": "CVI non-ACS non-PCI",
+      "phenotype": "Ultrarapid Metabolizer",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/8",
+      "sourceRowSha256": "dba12285ff21e7e8ab723e41d2a7c6420043b877b4c12958437e3cc1b0c307d7"
+    },
+    {
+      "sourceId": 8480406,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Indeterminate",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/23",
+      "sourceRowSha256": "06e02afe3b30716829817c8bcf6923b497eaac722fab180b82a56b807e6f7d06"
+    },
+    {
+      "sourceId": 8480403,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Intermediate Metabolizer",
+      "classification": "Moderate",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/20",
+      "sourceRowSha256": "7ed331cdbc3f43b7ebfcdf1c5ee3688ee523c70df732e2b6087cb92fb4514ef8"
+    },
+    {
+      "sourceId": 8480402,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Likely Intermediate Metabolizer",
+      "classification": "Moderate",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/19",
+      "sourceRowSha256": "2a56eda9b99e2cd85b0838af96ce0d6eb033abe8ab34609d1ce3b0bc949f20e8"
+    },
+    {
+      "sourceId": 8480404,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Likely Poor Metabolizer",
+      "classification": "Moderate",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/21",
+      "sourceRowSha256": "1a5400b10c9656e8c7d1f6151a3bc0308e63c6db50d8454c5c087e5a475a568e"
+    },
+    {
+      "sourceId": 8480401,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Normal Metabolizer",
+      "classification": "Strong",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/18",
+      "sourceRowSha256": "7f176d718f4f85cc303ed1d891117ba4e5155005f5e9d2f90f83ec50d895e07f"
+    },
+    {
+      "sourceId": 8480405,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Poor Metabolizer",
+      "classification": "Moderate",
+      "state": "reported",
+      "sourcePointer": "recommendations.json#/22",
+      "sourceRowSha256": "4d78d4096bc34321cd8fdea02648c824794b17dfa7c986f95e350eff1b8a9f36"
+    },
+    {
+      "sourceId": 8480400,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Rapid Metabolizer",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/17",
+      "sourceRowSha256": "7c2147cf28320b6235857a7e68496a544991ff3a83cb64056cdb41b83d08263a"
+    },
+    {
+      "sourceId": 8480399,
+      "sourceVersion": 1,
+      "context": "NVI",
+      "sourceContext": "NVI",
+      "phenotype": "Ultrarapid Metabolizer",
+      "classification": "No Recommendation",
+      "state": "no-recommendation",
+      "sourcePointer": "recommendations.json#/16",
+      "sourceRowSha256": "f46ac52a91d66a141e67749ebfa9a677e68eb4effb0d0b55eb49b880dbeef927"
+    }
+  ],
+  "fdaAssociation": {
+    "sourceType": "fda-association-table",
+    "drug": "clopidogrel",
+    "gene": "CYP2C19",
+    "section": "Section 1: Pharmacogenetic Associations for which the Data Support Therapeutic Management Recommendations",
+    "subgroupText": "intermediate or poor metabolizers",
+    "directPhenotypeLabels": [
+      "Intermediate Metabolizer",
+      "Poor Metabolizer"
+    ],
+    "description": "Results in lower systemic active metabolite concentrations, lower antiplatelet response, and may result in higher cardiovascular risk. Consider use of another platelet P2Y12 inhibitor.",
+    "indicationContext": null,
+    "locator": {
+      "tableOrdinal": 1,
+      "rowDrug": "Clopidogrel",
+      "rowGene": "CYP2C19"
+    },
+    "limits": [
+      "This association table is not a drug label.",
+      "No indication-specific scope is supplied in this row.",
+      "Absence from this row is not evidence of safety or lack of association.",
+      "Likely phenotypes are not automatically mapped to this source subgroup."
+    ],
+    "provenance": {
+      "file": "fda-associations.html",
+      "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+      "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+      "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+      "bytes": 82435,
+      "sourceType": "fda-association-table",
+      "snapshotNotLabel": true
+    }
+  },
+  "comparisons": [
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480390,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Indeterminate",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/7",
+        "sourceRowSha256": "6d67a1615cbc279f25729589776f1f065f913b620bcf36761218740bda4c0c64"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480387,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Intermediate Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/4",
+        "sourceRowSha256": "0848a22cdc7f00ec5d818e0804e7ce2515390bd97c304e3fcec0488de28fda6f"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480386,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Likely Intermediate Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/3",
+        "sourceRowSha256": "bb2e26986badec0927acd82ac097672efa97bdcd4083cd2c04bf6138afbd29cc"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480388,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Likely Poor Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/5",
+        "sourceRowSha256": "fddbace4d21a5e07f8aed1def1b3f1f277afe83ddd1069296355706a4672b84b"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480385,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Normal Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/2",
+        "sourceRowSha256": "e645b74cd5cafbcc40c31442de32df49e229ab30758e8ac96a63272159e6eb42"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480389,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Poor Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/6",
+        "sourceRowSha256": "b37dbc1ff5f5807c0c261a5280353aa445e433133ae6d823ef852dbea8311685"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480384,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Rapid Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/1",
+        "sourceRowSha256": "bad9f9ca70aefd9c672771411dd0330c70d2167f8df84231a749d6eb96c77443"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480383,
+        "sourceVersion": 1,
+        "context": "CVI ACS PCI",
+        "sourceContext": "CVI ACS PCI ",
+        "phenotype": "Ultrarapid Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/0",
+        "sourceRowSha256": "b044b2b815451a9922f6f5368f1ce1ee4044b291dec9bd00238c38e8fcf88145"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480398,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Indeterminate",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/15",
+        "sourceRowSha256": "02d7b433b115513d4c91d5699d60d8a0016254e248840646d91e3faa0b16e343"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480395,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Intermediate Metabolizer",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/12",
+        "sourceRowSha256": "6e479ada32c6d907453dce46d8a71742da1d24b49aabd45af50caf36fd9bf4eb"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480394,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Likely Intermediate Metabolizer",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/11",
+        "sourceRowSha256": "453960f8e7abefc76981bcfe9b69c10e9bd548a546099bcf6414903552c8805b"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480396,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Likely Poor Metabolizer",
+        "classification": "Moderate",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/13",
+        "sourceRowSha256": "fab13445e400a74c96e40129a084481d77a06863bb9a1a1ca0449a3ff05db818"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480393,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Normal Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/10",
+        "sourceRowSha256": "b388fef07a8996d9dda66f7e144eed8bd6da0a60f24fae3fa62688f8ec4847d5"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480397,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Poor Metabolizer",
+        "classification": "Moderate",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/14",
+        "sourceRowSha256": "fff6be20967568d432faee8ab4fb099d3ceae023cbe62e3883b34486ba9ff2c4"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480392,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Rapid Metabolizer",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/9",
+        "sourceRowSha256": "9912d4233f52aefd5105932f16474139d23f012bee1fc4087fa59c58ad27ca77"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480391,
+        "sourceVersion": 1,
+        "context": "CVI non-ACS non-PCI",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "phenotype": "Ultrarapid Metabolizer",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/8",
+        "sourceRowSha256": "dba12285ff21e7e8ab723e41d2a7c6420043b877b4c12958437e3cc1b0c307d7"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480406,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Indeterminate",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/23",
+        "sourceRowSha256": "06e02afe3b30716829817c8bcf6923b497eaac722fab180b82a56b807e6f7d06"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480403,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Intermediate Metabolizer",
+        "classification": "Moderate",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/20",
+        "sourceRowSha256": "7ed331cdbc3f43b7ebfcdf1c5ee3688ee523c70df732e2b6087cb92fb4514ef8"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480402,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Likely Intermediate Metabolizer",
+        "classification": "Moderate",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/19",
+        "sourceRowSha256": "2a56eda9b99e2cd85b0838af96ce0d6eb033abe8ab34609d1ce3b0bc949f20e8"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480404,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Likely Poor Metabolizer",
+        "classification": "Moderate",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/21",
+        "sourceRowSha256": "1a5400b10c9656e8c7d1f6151a3bc0308e63c6db50d8454c5c087e5a475a568e"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480401,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Normal Metabolizer",
+        "classification": "Strong",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/18",
+        "sourceRowSha256": "7f176d718f4f85cc303ed1d891117ba4e5155005f5e9d2f90f83ec50d895e07f"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480405,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Poor Metabolizer",
+        "classification": "Moderate",
+        "state": "reported",
+        "sourcePointer": "recommendations.json#/22",
+        "sourceRowSha256": "4d78d4096bc34321cd8fdea02648c824794b17dfa7c986f95e350eff1b8a9f36"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480400,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Rapid Metabolizer",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/17",
+        "sourceRowSha256": "7c2147cf28320b6235857a7e68496a544991ff3a83cb64056cdb41b83d08263a"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    },
+    {
+      "status": "scope-review-required",
+      "cpic": {
+        "sourceId": 8480399,
+        "sourceVersion": 1,
+        "context": "NVI",
+        "sourceContext": "NVI",
+        "phenotype": "Ultrarapid Metabolizer",
+        "classification": "No Recommendation",
+        "state": "no-recommendation",
+        "sourcePointer": "recommendations.json#/16",
+        "sourceRowSha256": "f46ac52a91d66a141e67749ebfa9a677e68eb4effb0d0b55eb49b880dbeef927"
+      },
+      "fda": {
+        "sourceType": "fda-association-table",
+        "subgroupMembership": "not-explicitly-listed",
+        "indicationContext": null,
+        "provenance": {
+          "file": "fda-associations.html",
+          "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+          "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+          "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+          "bytes": 82435,
+          "sourceType": "fda-association-table",
+          "snapshotNotLabel": true
+        }
+      },
+      "clinicalAgreement": "not-assessed",
+      "reasons": [
+        "Source types differ: guideline record versus association table.",
+        "The FDA row does not specify the selected CPIC indication context.",
+        "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+      ]
+    }
+  ],
+  "cpicManifest": [
+    {
+      "file": "drug.json",
+      "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel",
+      "retrievedAt": "2026-09-30T00:36:02.420514+00:00",
+      "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+      "bytes": 272
+    },
+    {
+      "file": "guideline.json",
+      "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411",
+      "retrievedAt": "2026-09-30T00:36:02.493729+00:00",
+      "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+      "bytes": 181
+    },
+    {
+      "file": "recommendations.json",
+      "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc",
+      "retrievedAt": "2026-09-30T00:36:02.593846+00:00",
+      "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+      "bytes": 23869
+    },
+    {
+      "file": "publications.json",
+      "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc",
+      "retrievedAt": "2026-09-30T00:36:02.695640+00:00",
+      "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+      "bytes": 2102
+    }
+  ],
+  "limits": [
+    "Current guideline-page updates have not yet been reconciled with the snapshot.",
+    "A matching drug and gene do not establish equivalent source scope.",
+    "No clinical agreement or conflict is inferred."
+  ]
+}

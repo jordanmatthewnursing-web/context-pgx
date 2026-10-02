@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-09-30T01:37:42.388258+00:00",
+  "requestedUrl": "https://cpicpgx.org/guidelines/guideline-for-clopidogrel-and-cyp2c19/",
+  "resolvedUrl": "https://www.clinpgx.org/guideline/PA166251443",
+  "method": "Rendered guideline page inspected through browser accessibility tree",
+  "publication": {
+    "year": 2022,
+    "pmid": "35034351",
+    "doi": "10.1002/cpt.2526"
+  },
+  "visibleHistory": [
+    {
+      "date": "2026-03-13",
+      "type": "Correction",
+      "summary": "Summary gene-name typo corrected from CYP2C9 to CYP2C19."
+    },
+    {
+      "date": "2025-06-26",
+      "type": "Note",
+      "summary": "2022 update literature added."
+    }
+  ],
+  "recommendationWorkbook": "https://files.cpicpgx.org/data/report/current/recommendation/clopidogrel%20recommendation.xlsx",
+  "status": "page-history-reviewed; workbook-to-API text correspondence checked separately",
+  "limits": [
+    "Manual page observation, not a complete or cryptographically authenticated history export.",
+    "No later publication or recommendation change was displayed in the inspected page history; this does not prove that no other update exists.",
+    "Allele definitions, diplotype interpretation and prescribing validation are outside this review."
+  ]
+}

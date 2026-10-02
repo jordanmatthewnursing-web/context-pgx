@@ -1,0 +1,238 @@
+{
+  "status": "text-correspondence-verified",
+  "workbook": {
+    "url": "https://files.cpicpgx.org/data/report/current/recommendation/clopidogrel%20recommendation.xlsx",
+    "retrievedAt": "2026-09-30T01:35:23.125110+00:00",
+    "sha256": "cdad87c86055655059d91f48d5ed0b62ce94bc9bb6d6abd6228646d26e95075f",
+    "bytes": 7253
+  },
+  "apiManifest": [
+    {
+      "file": "drug.json",
+      "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel",
+      "retrievedAt": "2026-09-30T00:36:02.420514+00:00",
+      "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+      "bytes": 272
+    },
+    {
+      "file": "guideline.json",
+      "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411",
+      "retrievedAt": "2026-09-30T00:36:02.493729+00:00",
+      "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+      "bytes": 181
+    },
+    {
+      "file": "recommendations.json",
+      "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc",
+      "retrievedAt": "2026-09-30T00:36:02.593846+00:00",
+      "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+      "bytes": 23869
+    },
+    {
+      "file": "publications.json",
+      "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc",
+      "retrievedAt": "2026-09-30T00:36:02.695640+00:00",
+      "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+      "bytes": 2102
+    }
+  ],
+  "checks": [
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Indeterminate",
+      "sourceId": 8480390,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A9:E9",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Intermediate Metabolizer",
+      "sourceId": 8480387,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A6:E6",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Likely Intermediate Metabolizer",
+      "sourceId": 8480386,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A5:E5",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Likely Poor Metabolizer",
+      "sourceId": 8480388,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A7:E7",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Normal Metabolizer",
+      "sourceId": 8480385,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A4:E4",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Poor Metabolizer",
+      "sourceId": 8480389,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A8:E8",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Rapid Metabolizer",
+      "sourceId": 8480384,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A3:E3",
+      "differentFields": []
+    },
+    {
+      "context": "CVI ACS PCI",
+      "phenotype": "Ultrarapid Metabolizer",
+      "sourceId": 8480383,
+      "sheet": "population CVI ACS PCI ",
+      "range": "A2:E2",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Indeterminate",
+      "sourceId": 8480398,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A9:E9",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Intermediate Metabolizer",
+      "sourceId": 8480395,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A6:E6",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Likely Intermediate Metabolizer",
+      "sourceId": 8480394,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A5:E5",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Likely Poor Metabolizer",
+      "sourceId": 8480396,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A7:E7",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Normal Metabolizer",
+      "sourceId": 8480393,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A4:E4",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Poor Metabolizer",
+      "sourceId": 8480397,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A8:E8",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Rapid Metabolizer",
+      "sourceId": 8480392,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A3:E3",
+      "differentFields": []
+    },
+    {
+      "context": "CVI non-ACS non-PCI",
+      "phenotype": "Ultrarapid Metabolizer",
+      "sourceId": 8480391,
+      "sheet": "population CVI non-ACS non-PCI",
+      "range": "A2:E2",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Indeterminate",
+      "sourceId": 8480406,
+      "sheet": "population NVI",
+      "range": "A9:E9",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Intermediate Metabolizer",
+      "sourceId": 8480403,
+      "sheet": "population NVI",
+      "range": "A6:E6",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Likely Intermediate Metabolizer",
+      "sourceId": 8480402,
+      "sheet": "population NVI",
+      "range": "A5:E5",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Likely Poor Metabolizer",
+      "sourceId": 8480404,
+      "sheet": "population NVI",
+      "range": "A7:E7",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Normal Metabolizer",
+      "sourceId": 8480401,
+      "sheet": "population NVI",
+      "range": "A4:E4",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Poor Metabolizer",
+      "sourceId": 8480405,
+      "sheet": "population NVI",
+      "range": "A8:E8",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Rapid Metabolizer",
+      "sourceId": 8480400,
+      "sheet": "population NVI",
+      "range": "A3:E3",
+      "differentFields": []
+    },
+    {
+      "context": "NVI",
+      "phenotype": "Ultrarapid Metabolizer",
+      "sourceId": 8480399,
+      "sheet": "population NVI",
+      "range": "A2:E2",
+      "differentFields": []
+    }
+  ],
+  "limits": [
+    "Exact text correspondence only; workbook and API may share the same upstream database.",
+    "Does not independently validate clinical recommendations or establish future currency.",
+    "No genotype-to-phenotype mapping is assessed."
+  ]
+}

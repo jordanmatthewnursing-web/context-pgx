@@ -1,0 +1,1265 @@
+{
+  "analysis": {
+    "comparisons": [
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "CVI ACS PCI",
+          "phenotype": "Indeterminate",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480390,
+          "sourcePointer": "recommendations.json#/7",
+          "sourceRowSha256": "6d67a1615cbc279f25729589776f1f065f913b620bcf36761218740bda4c0c64",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Intermediate Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480387,
+          "sourcePointer": "recommendations.json#/4",
+          "sourceRowSha256": "0848a22cdc7f00ec5d818e0804e7ce2515390bd97c304e3fcec0488de28fda6f",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Likely Intermediate Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480386,
+          "sourcePointer": "recommendations.json#/3",
+          "sourceRowSha256": "bb2e26986badec0927acd82ac097672efa97bdcd4083cd2c04bf6138afbd29cc",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Likely Poor Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480388,
+          "sourcePointer": "recommendations.json#/5",
+          "sourceRowSha256": "fddbace4d21a5e07f8aed1def1b3f1f277afe83ddd1069296355706a4672b84b",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Normal Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480385,
+          "sourcePointer": "recommendations.json#/2",
+          "sourceRowSha256": "e645b74cd5cafbcc40c31442de32df49e229ab30758e8ac96a63272159e6eb42",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Poor Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480389,
+          "sourcePointer": "recommendations.json#/6",
+          "sourceRowSha256": "b37dbc1ff5f5807c0c261a5280353aa445e433133ae6d823ef852dbea8311685",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Rapid Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480384,
+          "sourcePointer": "recommendations.json#/1",
+          "sourceRowSha256": "bad9f9ca70aefd9c672771411dd0330c70d2167f8df84231a749d6eb96c77443",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI ACS PCI",
+          "phenotype": "Ultrarapid Metabolizer",
+          "sourceContext": "CVI ACS PCI ",
+          "sourceId": 8480383,
+          "sourcePointer": "recommendations.json#/0",
+          "sourceRowSha256": "b044b2b815451a9922f6f5368f1ce1ee4044b291dec9bd00238c38e8fcf88145",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Indeterminate",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480398,
+          "sourcePointer": "recommendations.json#/15",
+          "sourceRowSha256": "02d7b433b115513d4c91d5699d60d8a0016254e248840646d91e3faa0b16e343",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Intermediate Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480395,
+          "sourcePointer": "recommendations.json#/12",
+          "sourceRowSha256": "6e479ada32c6d907453dce46d8a71742da1d24b49aabd45af50caf36fd9bf4eb",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Likely Intermediate Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480394,
+          "sourcePointer": "recommendations.json#/11",
+          "sourceRowSha256": "453960f8e7abefc76981bcfe9b69c10e9bd548a546099bcf6414903552c8805b",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Moderate",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Likely Poor Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480396,
+          "sourcePointer": "recommendations.json#/13",
+          "sourceRowSha256": "fab13445e400a74c96e40129a084481d77a06863bb9a1a1ca0449a3ff05db818",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Normal Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480393,
+          "sourcePointer": "recommendations.json#/10",
+          "sourceRowSha256": "b388fef07a8996d9dda66f7e144eed8bd6da0a60f24fae3fa62688f8ec4847d5",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Moderate",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Poor Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480397,
+          "sourcePointer": "recommendations.json#/14",
+          "sourceRowSha256": "fff6be20967568d432faee8ab4fb099d3ceae023cbe62e3883b34486ba9ff2c4",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Rapid Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480392,
+          "sourcePointer": "recommendations.json#/9",
+          "sourceRowSha256": "9912d4233f52aefd5105932f16474139d23f012bee1fc4087fa59c58ad27ca77",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "CVI non-ACS non-PCI",
+          "phenotype": "Ultrarapid Metabolizer",
+          "sourceContext": "CVI non-ACS non-PCI",
+          "sourceId": 8480391,
+          "sourcePointer": "recommendations.json#/8",
+          "sourceRowSha256": "dba12285ff21e7e8ab723e41d2a7c6420043b877b4c12958437e3cc1b0c307d7",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "NVI",
+          "phenotype": "Indeterminate",
+          "sourceContext": "NVI",
+          "sourceId": 8480406,
+          "sourcePointer": "recommendations.json#/23",
+          "sourceRowSha256": "06e02afe3b30716829817c8bcf6923b497eaac722fab180b82a56b807e6f7d06",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Moderate",
+          "context": "NVI",
+          "phenotype": "Intermediate Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480403,
+          "sourcePointer": "recommendations.json#/20",
+          "sourceRowSha256": "7ed331cdbc3f43b7ebfcdf1c5ee3688ee523c70df732e2b6087cb92fb4514ef8",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Moderate",
+          "context": "NVI",
+          "phenotype": "Likely Intermediate Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480402,
+          "sourcePointer": "recommendations.json#/19",
+          "sourceRowSha256": "2a56eda9b99e2cd85b0838af96ce0d6eb033abe8ab34609d1ce3b0bc949f20e8",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Moderate",
+          "context": "NVI",
+          "phenotype": "Likely Poor Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480404,
+          "sourcePointer": "recommendations.json#/21",
+          "sourceRowSha256": "1a5400b10c9656e8c7d1f6151a3bc0308e63c6db50d8454c5c087e5a475a568e",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Strong",
+          "context": "NVI",
+          "phenotype": "Normal Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480401,
+          "sourcePointer": "recommendations.json#/18",
+          "sourceRowSha256": "7f176d718f4f85cc303ed1d891117ba4e5155005f5e9d2f90f83ec50d895e07f",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "Moderate",
+          "context": "NVI",
+          "phenotype": "Poor Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480405,
+          "sourcePointer": "recommendations.json#/22",
+          "sourceRowSha256": "4d78d4096bc34321cd8fdea02648c824794b17dfa7c986f95e350eff1b8a9f36",
+          "sourceVersion": 1,
+          "state": "reported"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "NVI",
+          "phenotype": "Rapid Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480400,
+          "sourcePointer": "recommendations.json#/17",
+          "sourceRowSha256": "7c2147cf28320b6235857a7e68496a544991ff3a83cb64056cdb41b83d08263a",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      },
+      {
+        "clinicalAgreement": "not-assessed",
+        "cpic": {
+          "classification": "No Recommendation",
+          "context": "NVI",
+          "phenotype": "Ultrarapid Metabolizer",
+          "sourceContext": "NVI",
+          "sourceId": 8480399,
+          "sourcePointer": "recommendations.json#/16",
+          "sourceRowSha256": "f46ac52a91d66a141e67749ebfa9a677e68eb4effb0d0b55eb49b880dbeef927",
+          "sourceVersion": 1,
+          "state": "no-recommendation"
+        },
+        "fda": {
+          "indicationContext": null,
+          "provenance": {
+            "bytes": 82435,
+            "file": "fda-associations.html",
+            "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+            "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+            "snapshotNotLabel": true,
+            "sourceType": "fda-association-table",
+            "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+          },
+          "sourceType": "fda-association-table",
+          "subgroupMembership": "not-explicitly-listed"
+        },
+        "reasons": [
+          "Source types differ: guideline record versus association table.",
+          "The FDA row does not specify the selected CPIC indication context.",
+          "Different classifications or missing coverage must not become an automatic conflict, equivalence or safety verdict."
+        ],
+        "status": "scope-review-required"
+      }
+    ],
+    "contextMap": {
+      "doi": "10.1002/cpt.2526",
+      "mappings": [
+        {
+          "code": "CVI ACS PCI",
+          "label": "Cardiovascular: ACS and/or PCI",
+          "location": "Table 2, first classification column and footnote c",
+          "note": "Includes PCI for an acute coronary syndrome or an elective indication."
+        },
+        {
+          "code": "CVI non-ACS non-PCI",
+          "label": "Cardiovascular: outside ACS and PCI",
+          "location": "Table 2, second classification column and footnote d",
+          "note": "The indication is cardiovascular but outside the ACS/PCI context."
+        },
+        {
+          "code": "NVI",
+          "label": "Neurovascular indications",
+          "location": "Table 3 and its footnotes",
+          "note": "Consult the original table for included settings and qualifications."
+        }
+      ],
+      "publicationYear": 2022,
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287492/",
+      "status": "publication-context-review; current guideline updates still require reconciliation"
+    },
+    "cpicManifest": [
+      {
+        "bytes": 272,
+        "file": "drug.json",
+        "retrievedAt": "2026-09-30T00:57:09.183166+00:00",
+        "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+        "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel"
+      },
+      {
+        "bytes": 181,
+        "file": "guideline.json",
+        "retrievedAt": "2026-09-30T00:57:09.266635+00:00",
+        "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+        "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411"
+      },
+      {
+        "bytes": 23869,
+        "file": "recommendations.json",
+        "retrievedAt": "2026-09-30T00:57:09.373297+00:00",
+        "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+        "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc"
+      },
+      {
+        "bytes": 2102,
+        "file": "publications.json",
+        "retrievedAt": "2026-09-30T00:57:09.471575+00:00",
+        "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+        "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc"
+      }
+    ],
+    "cpicRecords": [
+      {
+        "classification": "No Recommendation",
+        "context": "CVI ACS PCI",
+        "phenotype": "Indeterminate",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480390,
+        "sourcePointer": "recommendations.json#/7",
+        "sourceRowSha256": "6d67a1615cbc279f25729589776f1f065f913b620bcf36761218740bda4c0c64",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Intermediate Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480387,
+        "sourcePointer": "recommendations.json#/4",
+        "sourceRowSha256": "0848a22cdc7f00ec5d818e0804e7ce2515390bd97c304e3fcec0488de28fda6f",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Likely Intermediate Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480386,
+        "sourcePointer": "recommendations.json#/3",
+        "sourceRowSha256": "bb2e26986badec0927acd82ac097672efa97bdcd4083cd2c04bf6138afbd29cc",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Likely Poor Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480388,
+        "sourcePointer": "recommendations.json#/5",
+        "sourceRowSha256": "fddbace4d21a5e07f8aed1def1b3f1f277afe83ddd1069296355706a4672b84b",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Normal Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480385,
+        "sourcePointer": "recommendations.json#/2",
+        "sourceRowSha256": "e645b74cd5cafbcc40c31442de32df49e229ab30758e8ac96a63272159e6eb42",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Poor Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480389,
+        "sourcePointer": "recommendations.json#/6",
+        "sourceRowSha256": "b37dbc1ff5f5807c0c261a5280353aa445e433133ae6d823ef852dbea8311685",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Rapid Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480384,
+        "sourcePointer": "recommendations.json#/1",
+        "sourceRowSha256": "bad9f9ca70aefd9c672771411dd0330c70d2167f8df84231a749d6eb96c77443",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI ACS PCI",
+        "phenotype": "Ultrarapid Metabolizer",
+        "sourceContext": "CVI ACS PCI ",
+        "sourceId": 8480383,
+        "sourcePointer": "recommendations.json#/0",
+        "sourceRowSha256": "b044b2b815451a9922f6f5368f1ce1ee4044b291dec9bd00238c38e8fcf88145",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Indeterminate",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480398,
+        "sourcePointer": "recommendations.json#/15",
+        "sourceRowSha256": "02d7b433b115513d4c91d5699d60d8a0016254e248840646d91e3faa0b16e343",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Intermediate Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480395,
+        "sourcePointer": "recommendations.json#/12",
+        "sourceRowSha256": "6e479ada32c6d907453dce46d8a71742da1d24b49aabd45af50caf36fd9bf4eb",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Likely Intermediate Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480394,
+        "sourcePointer": "recommendations.json#/11",
+        "sourceRowSha256": "453960f8e7abefc76981bcfe9b69c10e9bd548a546099bcf6414903552c8805b",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "Moderate",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Likely Poor Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480396,
+        "sourcePointer": "recommendations.json#/13",
+        "sourceRowSha256": "fab13445e400a74c96e40129a084481d77a06863bb9a1a1ca0449a3ff05db818",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Normal Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480393,
+        "sourcePointer": "recommendations.json#/10",
+        "sourceRowSha256": "b388fef07a8996d9dda66f7e144eed8bd6da0a60f24fae3fa62688f8ec4847d5",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Moderate",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Poor Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480397,
+        "sourcePointer": "recommendations.json#/14",
+        "sourceRowSha256": "fff6be20967568d432faee8ab4fb099d3ceae023cbe62e3883b34486ba9ff2c4",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Rapid Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480392,
+        "sourcePointer": "recommendations.json#/9",
+        "sourceRowSha256": "9912d4233f52aefd5105932f16474139d23f012bee1fc4087fa59c58ad27ca77",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "CVI non-ACS non-PCI",
+        "phenotype": "Ultrarapid Metabolizer",
+        "sourceContext": "CVI non-ACS non-PCI",
+        "sourceId": 8480391,
+        "sourcePointer": "recommendations.json#/8",
+        "sourceRowSha256": "dba12285ff21e7e8ab723e41d2a7c6420043b877b4c12958437e3cc1b0c307d7",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "NVI",
+        "phenotype": "Indeterminate",
+        "sourceContext": "NVI",
+        "sourceId": 8480406,
+        "sourcePointer": "recommendations.json#/23",
+        "sourceRowSha256": "06e02afe3b30716829817c8bcf6923b497eaac722fab180b82a56b807e6f7d06",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "Moderate",
+        "context": "NVI",
+        "phenotype": "Intermediate Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480403,
+        "sourcePointer": "recommendations.json#/20",
+        "sourceRowSha256": "7ed331cdbc3f43b7ebfcdf1c5ee3688ee523c70df732e2b6087cb92fb4514ef8",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Moderate",
+        "context": "NVI",
+        "phenotype": "Likely Intermediate Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480402,
+        "sourcePointer": "recommendations.json#/19",
+        "sourceRowSha256": "2a56eda9b99e2cd85b0838af96ce0d6eb033abe8ab34609d1ce3b0bc949f20e8",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Moderate",
+        "context": "NVI",
+        "phenotype": "Likely Poor Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480404,
+        "sourcePointer": "recommendations.json#/21",
+        "sourceRowSha256": "1a5400b10c9656e8c7d1f6151a3bc0308e63c6db50d8454c5c087e5a475a568e",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Strong",
+        "context": "NVI",
+        "phenotype": "Normal Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480401,
+        "sourcePointer": "recommendations.json#/18",
+        "sourceRowSha256": "7f176d718f4f85cc303ed1d891117ba4e5155005f5e9d2f90f83ec50d895e07f",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "Moderate",
+        "context": "NVI",
+        "phenotype": "Poor Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480405,
+        "sourcePointer": "recommendations.json#/22",
+        "sourceRowSha256": "4d78d4096bc34321cd8fdea02648c824794b17dfa7c986f95e350eff1b8a9f36",
+        "sourceVersion": 1,
+        "state": "reported"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "NVI",
+        "phenotype": "Rapid Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480400,
+        "sourcePointer": "recommendations.json#/17",
+        "sourceRowSha256": "7c2147cf28320b6235857a7e68496a544991ff3a83cb64056cdb41b83d08263a",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      },
+      {
+        "classification": "No Recommendation",
+        "context": "NVI",
+        "phenotype": "Ultrarapid Metabolizer",
+        "sourceContext": "NVI",
+        "sourceId": 8480399,
+        "sourcePointer": "recommendations.json#/16",
+        "sourceRowSha256": "f46ac52a91d66a141e67749ebfa9a677e68eb4effb0d0b55eb49b880dbeef927",
+        "sourceVersion": 1,
+        "state": "no-recommendation"
+      }
+    ],
+    "fdaAssociation": {
+      "description": "Results in lower systemic active metabolite concentrations, lower antiplatelet response, and may result in higher cardiovascular risk. Consider use of another platelet P2Y12 inhibitor.",
+      "directPhenotypeLabels": [
+        "Intermediate Metabolizer",
+        "Poor Metabolizer"
+      ],
+      "drug": "clopidogrel",
+      "gene": "CYP2C19",
+      "indicationContext": null,
+      "limits": [
+        "This association table is not a drug label.",
+        "No indication-specific scope is supplied in this row.",
+        "Absence from this row is not evidence of safety or lack of association.",
+        "Likely phenotypes are not automatically mapped to this source subgroup."
+      ],
+      "locator": {
+        "rowDrug": "Clopidogrel",
+        "rowGene": "CYP2C19",
+        "tableOrdinal": 1
+      },
+      "provenance": {
+        "bytes": 82435,
+        "file": "fda-associations.html",
+        "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+        "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+        "snapshotNotLabel": true,
+        "sourceType": "fda-association-table",
+        "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+      },
+      "section": "Section 1: Pharmacogenetic Associations for which the Data Support Therapeutic Management Recommendations",
+      "sourceType": "fda-association-table",
+      "subgroupText": "intermediate or poor metabolizers"
+    },
+    "limits": [
+      "Current guideline-page updates have not yet been reconciled with the snapshot.",
+      "A matching drug and gene do not establish equivalent source scope.",
+      "No clinical agreement or conflict is inferred."
+    ],
+    "purpose": "Source-scope comparison for education; no patient recommendation",
+    "schemaVersion": 1
+  },
+  "contextMap": {
+    "doi": "10.1002/cpt.2526",
+    "mappings": [
+      {
+        "code": "CVI ACS PCI",
+        "label": "Cardiovascular: ACS and/or PCI",
+        "location": "Table 2, first classification column and footnote c",
+        "note": "Includes PCI for an acute coronary syndrome or an elective indication."
+      },
+      {
+        "code": "CVI non-ACS non-PCI",
+        "label": "Cardiovascular: outside ACS and PCI",
+        "location": "Table 2, second classification column and footnote d",
+        "note": "The indication is cardiovascular but outside the ACS/PCI context."
+      },
+      {
+        "code": "NVI",
+        "label": "Neurovascular indications",
+        "location": "Table 3 and its footnotes",
+        "note": "Consult the original table for included settings and qualifications."
+      }
+    ],
+    "publicationYear": 2022,
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287492/",
+    "status": "publication-context-review; current guideline updates still require reconciliation"
+  },
+  "format": "pgx-evidence-bundle-v1",
+  "sources": [
+    {
+      "manifest": {
+        "bytes": 272,
+        "file": "drug.json",
+        "retrievedAt": "2026-09-30T00:57:09.183166+00:00",
+        "sha256": "a0ae69151c0cbb9561efed597caea9cb8f691586f4f1ee6e53d1b73b89ef6d9a",
+        "url": "https://api.cpicpgx.org/v1/drug?name=eq.clopidogrel"
+      },
+      "text": "[{\"drugid\":\"RxNorm:32968\",\"name\":\"clopidogrel\",\"clinpgxid\":\"PA449053\",\"rxnormid\":\"32968\",\"drugbankid\":\"DB00758\",\"atcid\":[\"B01AC04\"],\"umlscui\":null,\"flowchart\":\"https://files.cpicpgx.org/images/flow_chart/Clopidogrel_CDS_Flow_Chart.jpg\",\"version\":268,\"guidelineid\":100411}]"
+    },
+    {
+      "manifest": {
+        "bytes": 181,
+        "file": "guideline.json",
+        "retrievedAt": "2026-09-30T00:57:09.266635+00:00",
+        "sha256": "0073d4675c48f7fe8d787ea3e8f86ab79259dbed71b52c2b0887c0232790bbd5",
+        "url": "https://api.cpicpgx.org/v1/guideline?id=eq.100411"
+      },
+      "text": "[{\"id\":100411,\"version\":71,\"name\":\"CYP2C19 and Clopidogrel\",\"url\":\"https://www.clinpgx.org/guideline/PA166251443\",\"genes\":[\"CYP2C19\"],\"notesonusage\":null,\"clinpgxid\":\"PA166251443\"}]"
+    },
+    {
+      "manifest": {
+        "bytes": 23869,
+        "file": "recommendations.json",
+        "retrievedAt": "2026-09-30T00:57:09.373297+00:00",
+        "sha256": "84887e43e192f86dcc5e8e2dd3e9aad8576486395f217a5d0cfcde65a1aa442b",
+        "url": "https://api.cpicpgx.org/v1/recommendation?drugid=eq.RxNorm%3A32968&order=id.asc"
+      },
+      "text": "[{\"id\":8480383,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Increased clopidogrel active metabolite formation; lower on-treatment platelet reactivity; no association with higher bleeding risk\"},\"drugrecommendation\":\"If considering clopidogrel, use at standard dose (75 mg/day)\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Ultrarapid Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Ultrarapid Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480384,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Normal or increased clopidogrel active metabolite formation; normal or lower on-treatment platelet reactivity; no association with higher bleeding risk\"},\"drugrecommendation\":\"If considering clopidogrel, use at standard dose (75 mg/day)\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Rapid Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Rapid Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480385,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Normal clopidogrel active metabolite formation; normal on-treatment platelet reactivity\"},\"drugrecommendation\":\"If considering clopidogrel, use at standard dose (75 mg/day)\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Normal Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Normal Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480386,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid standard dose clopidogrel (75 mg) if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Likely Intermediate Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Likely Intermediate Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication. The strength of recommendation for \\\"likely\\\" phenotypes are the same as their respective confirmed phenotypes. \\\"Likely\\\" indicates the uncertainty in the phenotype assignment, but it is reasonable to apply the recommendation for the confirmed phenotype to the corresponding \\\"likely\\\" phenotype.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480387,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid standard dose (75 mg) clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Intermediate Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Intermediate Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480388,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Significantly reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Likely Poor Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Likely Poor Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication. The strength of recommendation for \\\"likely\\\" phenotypes are the same as their respective confirmed phenotypes. \\\"Likely\\\" indicates the uncertainty in the phenotype assignment, but it is reasonable to apply the recommendation for the confirmed phenotype to the corresponding \\\"likely\\\" phenotype.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480389,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Significantly reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Poor Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Poor Metabolizer\"},\"population\":\"CVI ACS PCI \",\"comments\":\"For cardiovascular indications of acute coronary syndrome (ACS) and/or percutaneous coronary intervention (PCI). ACS and/or PCI includes patients undergoing PCI for an ACS or non-ACS (elective) indication.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480390,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"n/a\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Indeterminate\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Indeterminate\"},\"population\":\"CVI ACS PCI \",\"comments\":\"n/a\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480391,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Increased clopidogrel active metabolite formation; lower on-treatment platelet reactivity; no association with higher bleeding risk\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Ultrarapid Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Ultrarapid Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480392,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Normal or increased clopidogrel active metabolite formation; normal or lower on-treatment platelet reactivity; no association with higher bleeding risk\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Rapid Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Rapid Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480393,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Normal clopidogrel active metabolite formation; normal on-treatment platelet reactivity\"},\"drugrecommendation\":\"If considering clopidogrel, use at standard dose (75 mg/day)\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Normal Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Normal Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480394,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Likely Intermediate Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Likely Intermediate Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI. The strength of recommendation for \\\"likely\\\" phenotypes are the same as their respective confirmed phenotypes. \\\"Likely\\\" indicates the uncertainty in the phenotype assignment, but it is reasonable to apply the recommendation for the confirmed phenotype to the corresponding \\\"likely\\\" phenotype.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480395,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Intermediate Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Intermediate Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480396,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Significantly reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.\",\"classification\":\"Moderate\",\"phenotypes\":{\"CYP2C19\": \"Likely Poor Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Likely Poor Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI. The strength of recommendation for \\\"likely\\\" phenotypes are the same as their respective confirmed phenotypes. \\\"Likely\\\" indicates the uncertainty in the phenotype assignment, but it is reasonable to apply the recommendation for the confirmed phenotype to the corresponding \\\"likely\\\" phenotype.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480397,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Significantly reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid clopidogrel if possible. Use prasugrel or ticagrelor at standard dose if no contraindication.\",\"classification\":\"Moderate\",\"phenotypes\":{\"CYP2C19\": \"Poor Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Poor Metabolizer\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"For non-acute coronary syndrome (non-ACS) and non-percutaneous coronary intervention (non-PCI) cardiovascular indications. Non-ACS, non-PCI cardiovascular indications include peripheral arterial disease and stable coronary artery disease following a recent myocardial infarction outside the setting of PCI.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480398,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"n/a\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Indeterminate\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Indeterminate\"},\"population\":\"CVI non-ACS non-PCI\",\"comments\":\"n/a\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480399,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Increased clopidogrel active metabolite formation; lower on-treatment platelet reactivity\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Ultrarapid Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Ultrarapid Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480400,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Normal or increased clopidogrel active metabolite formation; normal or lower on-treatment platelet reactivity\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Rapid Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Rapid Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480401,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Normal clopidogrel active metabolite formation; normal on-treatment platelet reactivity\"},\"drugrecommendation\":\"If considering clopidogrel, use at standard dose (75 mg/day)\",\"classification\":\"Strong\",\"phenotypes\":{\"CYP2C19\": \"Normal Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Normal Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480402,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.\",\"classification\":\"Moderate\",\"phenotypes\":{\"CYP2C19\": \"Likely Intermediate Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Likely Intermediate Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms. Alternative P2Y12 inhibitors not impacted by CYP2C19 genetic variants include ticagrelor and ticlopidine. Prasugrel is contraindicated in patients with a history of stroke or TIA. Given limited outcomes data for genotype-guided anti-platelet therapy for neurovascular indications, selection of therapy should depend on individual patient treatment goals and risks for adverse events. The strength of recommendation for \\\"likely\\\" phenotypes are the same as their respective confirmed phenotypes. \\\"Likely\\\" indicates the uncertainty in the phenotype assignment, but it is reasonable to apply the recommendation for the confirmed phenotype to the corresponding \\\"likely\\\" phenotype.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480403,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.\",\"classification\":\"Moderate\",\"phenotypes\":{\"CYP2C19\": \"Intermediate Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Intermediate Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms. Alternative P2Y12 inhibitors not impacted by CYP2C19 genetic variants include ticagrelor and ticlopidine. Prasugrel is contraindicated in patients with a history of stroke or TIA. Given limited outcomes data for genotype-guided anti-platelet therapy for neurovascular indications, selection of therapy should depend on individual patient treatment goals and risks for adverse events.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480404,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Significantly reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid clopidogrel if possible. Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.\",\"classification\":\"Moderate\",\"phenotypes\":{\"CYP2C19\": \"Likely Poor Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Likely Poor Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms. Alternative P2Y12 inhibitors not impacted by CYP2C19 genetic variants include ticagrelor and ticlopidine. Prasugrel is contraindicated in patients with a history of stroke or TIA. Given limited outcomes data for genotype-guided anti-platelet therapy for neurovascular indications, selection of therapy should depend on individual patient treatment goals and risks for adverse events. The strength of recommendation for \\\"likely\\\" phenotypes are the same as their respective confirmed phenotypes. \\\"Likely\\\" indicates the uncertainty in the phenotype assignment, but it is reasonable to apply the recommendation for the confirmed phenotype to the corresponding \\\"likely\\\" phenotype.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480405,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"Significantly reduced clopidogrel active metabolite formation; increased on-treatment platelet reactivity; increased risk for adverse cardiac and cerebrovascular events\"},\"drugrecommendation\":\"Avoid clopidogrel if possible. Consider an alternative P2Y12 inhibitor at standard dose if clinically indicated and no contraindication.\",\"classification\":\"Moderate\",\"phenotypes\":{\"CYP2C19\": \"Poor Metabolizer\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Poor Metabolizer\"},\"population\":\"NVI\",\"comments\":\"For neurovascular indications. Neurovascular disease includes acute ischemic stroke or transient ischemic attack, secondary prevention of stroke, or prevention of thromboembolic events following neurointerventional procedures such as carotid artery stenting and stent-assisted coiling of intracranial aneurysms. Alternative P2Y12 inhibitors not impacted by CYP2C19 genetic variants include ticagrelor and ticlopidine. Prasugrel is contraindicated in patients with a history of stroke or TIA. Given limited outcomes data for genotype-guided anti-platelet therapy for neurovascular indications, selection of therapy should depend on individual patient treatment goals and risks for adverse events.\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}, \n {\"id\":8480406,\"guidelineid\":100411,\"drugid\":\"RxNorm:32968\",\"implications\":{\"CYP2C19\": \"n/a\"},\"drugrecommendation\":\"No recommendation\",\"classification\":\"No Recommendation\",\"phenotypes\":{\"CYP2C19\": \"Indeterminate\"},\"activityscore\":{},\"allelestatus\":{},\"lookupkey\":{\"CYP2C19\": \"Indeterminate\"},\"population\":\"NVI\",\"comments\":\"n/a\",\"version\":1,\"dosinginformation\":false,\"alternatedrugavailable\":false,\"otherprescribingguidance\":false}]"
+    },
+    {
+      "manifest": {
+        "bytes": 2102,
+        "file": "publications.json",
+        "retrievedAt": "2026-09-30T00:57:09.471575+00:00",
+        "sha256": "45ee9b3bb92d71dfe6d6d0eac99d7a2e2814b28faff7c0b7e30355cacff8402a",
+        "url": "https://api.cpicpgx.org/v1/publication?guidelineid=eq.100411&order=id.asc"
+      },
+      "text": "[{\"id\":110005,\"guidelineid\":100411,\"title\":\"Clinical Pharmacogenetics Implementation Consortium Guidelines for Cytochrome P450-2C19 (CYP2C19) Genotype and Clopidogrel Therapy\",\"authors\":[\"Scott S A\",\"Sangkuhl K\",\"Gardner E E\",\"Stein C M\",\"Hulot J-S\",\"Johnson J A\",\"Roden D M\",\"Klein T E\",\"Shuldiner A R\"],\"journal\":\"Clinical pharmacology and therapeutics\",\"month\":6,\"page\":\"\",\"volume\":\"\",\"year\":2011,\"pmid\":\"21716271\",\"pmcid\":\"PMC3234301\",\"doi\":\"10.1038/clpt.2011.132\",\"url\":null,\"version\":68,\"highlightedonsite\":false,\"fulltextfile\":\"https://files.cpicpgx.org/data/guideline/publication/clopidogrel/2011/21716271.pdf\"}, \n {\"id\":110028,\"guidelineid\":100411,\"title\":\"Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines for cytochrome P450-2C19 (CYP2C19) genotype and clopidogrel therapy: 2013 Update\",\"authors\":[\"Scott Stuart A\",\"Sangkuhl Katrin\",\"Stein C Michael\",\"Hulot Jean-Sébastien\",\"Mega Jessica L\",\"Roden Dan M\",\"Klein Teri E\",\"Sabatine Marc S\",\"Johnson Julie A\",\"Shuldiner Alan R\"],\"journal\":\"Clinical pharmacology and therapeutics\",\"month\":5,\"page\":\"\",\"volume\":\"\",\"year\":2013,\"pmid\":\"23698643\",\"pmcid\":\"PMC3748366\",\"doi\":\"10.1038/clpt.2013.105\",\"url\":null,\"version\":68,\"highlightedonsite\":false,\"fulltextfile\":\"https://files.cpicpgx.org/data/guideline/publication/clopidogrel/2013/23698643.pdf\"}, \n {\"id\":1608551,\"guidelineid\":100411,\"title\":\"Clinical Pharmacogenetics Implementation Consortium Guideline for CYP2C19 Genotype and Clopidogrel Therapy: 2022 Update.\",\"authors\":[\"Lee Craig R\",\"Luzum Jasmine A\",\"Sangkuhl Katrin\",\"Gammal Roseann S\",\"Sabatine Marc S\",\"Stein C Michael\",\"Kisor David F\",\"Limdi Nita A\",\"Lee Yee Ming\",\"Scott Stuart A\",\"Hulot Jean-Sébastien\",\"Roden Dan M\",\"Gaedigk Andrea\",\"Caudle Kelly E\",\"Klein Teri E\",\"Johnson Julie A\",\"Shuldiner Alan R\"],\"journal\":\"Clinical pharmacology and therapeutics\",\"month\":1,\"page\":null,\"volume\":null,\"year\":2022,\"pmid\":\"35034351\",\"pmcid\":null,\"doi\":\"10.1002/cpt.2526\",\"url\":null,\"version\":68,\"highlightedonsite\":false,\"fulltextfile\":\"https://files.cpicpgx.org/data/guideline/publication/clopidogrel/2022/35034351.pdf\"}]"
+    },
+    {
+      "manifest": {
+        "bytes": 82435,
+        "file": "fda-associations.html",
+        "retrievedAt": "2026-09-30T00:57:09.829751+00:00",
+        "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+        "snapshotNotLabel": true,
+        "sourceType": "fda-association-table",
+        "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations"
+      },
+      "text": "<!DOCTYPE html>\n<html  lang=\"en\" dir=\"ltr\" prefix=\"og: https://ogp.me/ns#\">\n  <head>\n    <meta charset=\"utf-8\" />\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-273DTKB5QW\"></script>\n<meta name=\"description\" content=\"This table lists pharmacogenetic associations that the FDA has evaluated.\" />\n<meta name=\"dcterms.title\" content=\"Table of Pharmacogenetic Associations\" />\n<meta name=\"dcterms.creator\" content=\"Center for Devices and Radiological Health\" />\n<meta name=\"dcterms.description\" content=\"This table lists pharmacogenetic associations that the FDA has evaluated.\" />\n<meta name=\"dcterms.publisher\" content=\"FDA\" />\n<meta name=\"dcterms.type\" content=\"Article\" />\n<meta name=\"dcterms.source\" content=\"FDA\" />\n<meta property=\"og:site_name\" content=\"U.S. Food and Drug Administration\" />\n<meta property=\"og:type\" content=\"Article\" />\n<meta property=\"og:url\" content=\"https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations\" />\n<meta property=\"og:title\" content=\"Table of Pharmacogenetic Associations\" />\n<meta property=\"og:description\" content=\"This table lists pharmacogenetic associations that the FDA has evaluated.\" />\n<meta property=\"og:updated_time\" content=\"Thu, 09/10/2026 - 02:52\" />\n<meta property=\"article:publisher\" content=\"FDA\" />\n<meta property=\"article:published_time\" content=\"Thu, 09/10/2026 - 10:51\" />\n<meta property=\"article:modified_time\" content=\"Thu, 09/10/2026 - 02:52\" />\n<meta name=\"google-site-verification\" content=\"tWxlDhm4ANdksJZPj7TBmHgNoMqZCnecPp0Aa2vC9XA\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@US_FDA\" />\n<meta property=\"twitter:description\" content=\"This table lists pharmacogenetic associations that the FDA has evaluated.\" />\n<meta name=\"twitter:title\" content=\"Table of Pharmacogenetic Associations\" />\n<meta name=\"twitter:creator\" content=\"@US_FDA\" />\n<meta name=\"MobileOptimized\" content=\"width\" />\n<meta name=\"HandheldFriendly\" content=\"true\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<script type=\"application/ld+json\">{\n    \"@context\": \"https://schema.org\",\n    \"@graph\": [\n        {\n            \"@type\": \"Article\",\n            \"headline\": \"Table of Pharmacogenetic Associations\",\n            \"name\": \"Table of Pharmacogenetic Associations\",\n            \"description\": \"This table lists pharmacogenetic associations that the FDA has evaluated.\",\n            \"datePublished\": \"Thu, 09/10/2026 - 10:51\",\n            \"dateModified\": \"Thu, 09/10/2026 - 02:52\",\n            \"author\": {\n                \"@type\": \"Organization\",\n                \"name\": \"Center for Devices and Radiological Health\"\n            },\n            \"publisher\": {\n                \"@type\": \"Organization\",\n                \"name\": \"FDA\"\n            }\n        }\n    ]\n}</script>\n<meta property=\"og:image\" content=\"https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png\" />\n<meta name=\"twitter:image\" content=\"https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png\" />\n<link rel=\"icon\" href=\"/themes/custom/preview/favicon.ico\" type=\"image/vnd.microsoft.icon\" />\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations\" />\n<link rel=\"canonical\" href=\"https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations\" />\n<link rel=\"shortlink\" href=\"https://www.fda.gov/node/401202\" />\n<script src=\"/files/google_tag/production/google_tag.script.js?tlw6cc\" defer></script>\n\n    <title>Table of Pharmacogenetic Associations | FDA</title>\n    <link rel=\"stylesheet\" media=\"all\" href=\"/files/css/css_eK8g324EC2H65Epj0rcHWphsdBbFdB-sjJn18Po86QI.css?delta=0&amp;language=en&amp;theme=preview&amp;include=eJx1zkEOgzAMBMAPhebS_6CELMjFxGnsUPH7hh5KL5Wl1Ui7B08rEpnUkXJCtsgyrf7HTg81bD4GhSsVO-HlF5YYeFA7mPLiHs-GeoyNxhQMhaYV1V90nf0iQ_3FIWEOjW2o0CJZacefYRQxtRrK3c2dWaz3X7nzI_WfvG2SGuMN6YpTyw\" />\n<link rel=\"stylesheet\" media=\"all\" href=\"/files/css/css_kzM3UfAkXr38eWZ807nc-7-NjN8_C9qpn2PkF7glUTU.css?delta=1&amp;language=en&amp;theme=preview&amp;include=eJx1zkEOgzAMBMAPhebS_6CELMjFxGnsUPH7hh5KL5Wl1Ui7B08rEpnUkXJCtsgyrf7HTg81bD4GhSsVO-HlF5YYeFA7mPLiHs-GeoyNxhQMhaYV1V90nf0iQ_3FIWEOjW2o0CJZacefYRQxtRrK3c2dWaz3X7nzI_WfvG2SGuMN6YpTyw\" />\n\n    <script src=\"https://script.crazyegg.com/pages/scripts/0024/3700.js\" async></script>\n<script src=\"https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=HHS&amp;subagency=FDA&amp;sdor=fda.gov&amp;dclink=true\" language=\"javascript\" id=\"_fed_an_ua_tag\"></script>\n\n            <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag(\"js\", new Date());gtag(\"set\", \"developer_id.dMDhkMT\", true);gtag(\"config\", \"G-273DTKB5QW\", {\"groups\":\"default\",\"page_placeholder\":\"PLACEHOLDER_page_location\",\"allow_ad_personalization_signals\":false});</script>\n        \n  </head>\n  <body class=\"role-anonymous path-node page-node-type-article has-glyphicons\">\n      <div id=\"quicklinks\" class=\"sr-only display-on-focus\">\n        <ul class=\"list-inline padding-left-3 padding-right-3\">\n          <li><a href=\"#main-content\" class=\"btn btn-default margin-top-3\" tabindex=\"1\">Skip to main content</a></li>\n          <li><a href=\"#search-form\" class=\"btn btn-default margin-top-3\" tabindex=\"1\">Skip to FDA Search</a></li>\n          <li><a href=\"#section-nav\" class=\"btn btn-default margin-top-3\" tabindex=\"1\">Skip to in this section menu</a></li>\n          <li><a href=\"#footer\" class=\"btn btn-default margin-top-3\" tabindex=\"1\">Skip to footer links</a></li>\n        </ul>   \n      </div>    <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-M95XGZW\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n      <div class=\"dialog-off-canvas-main-canvas\" data-off-canvas-main-canvas>\n       \n  <div class=\"main-container container-fluid\">     <div class=\"row\">\n                                                               \n\n\n\t\n\t<header class=\"lcds-header container-fluid\" role=\"banner\">\n\t\t                    \n\t\t\t<div class=\"row us-masthead\">                            \n\n\t\t\t\t<div class=\"usa-banner col-xs-12\">\n\n\t\t\t\t\t<img class=\"usa-banner__us-flag\" src=\"/themes/custom/preview/assets/images/US_Flag.png\" alt=\"U.S. flag\" />\n\n\t\t\t\t\t<span>An official website of the United States government</span>\n\n\t\t\t\t    <a id=\"USMenuButton\" class=\"collapsed\" role=\"button\" aria-expanded=\"false\" aria-controls=\"USABannerMenu\" href=\"#\" data-toggle=\"collapse\" data-target=\"#USABannerMenu\">Here’s how you know <span class=\"toggle-indicator\"> </span></a>\n\n          \t\t\t<div class=\"col-xs-12 collapse usa-banner__menu\" id=\"USABannerMenu\" aria-labelledby=\"USMenuButton\">\n\n\n\t\t\t\t\t\t<div id=\"gov-banner\" class=\"row usa-banner-content usa-grid usa-accordion-content\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t      <div class=\"col-xs-12 col-sm-6 col-md-3\">\n\t\t\t\t\t\t\t        <img class=\"usa-banner-icon usa-media_block-img\" src=\"/themes/custom/preview/assets/images/icon-dot-gov.svg\" alt=\"Dot gov\" style=\"width:3em;\">\n\t\t\t\t\t\t\t\t\t<div class=\"usa-media_block-body\">\n\t\t\t\t\t\t\t\t      <p><strong>The .gov means it’s official.</strong><br>Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.</p>\n\t\t\t\t\t\t\t\t    </div>\n\t\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t\t      <div class=\"col-xs-12 col-sm-6 col-md-3\">\n\t\t\t\t\t\t\t        <img class=\"usa-banner-icon usa-media_block-img\" src=\"/themes/custom/preview/assets/images/icon-https.svg\" alt=\"SSL\" style=\"width:3em;\">\n\t\t\t\t\t\t\t        <div class=\"usa-media_block-body\">\n\t\t\t\t\t\t\t\t         <p><strong>The site is secure.</strong><br> The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.</p>\n\t\t\t\t\t\t\t        </div>\n\t\t\t\t\t\t\t      </div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t</div> \t\t\t<div class=\"row fda-masthead\">\n\t\t\t\n\n\t\t\t\t\t\t\t<div class=\"col-xs-4 col-md-8 fda-masthead__fda-logo\"> \n\t\t\t\t\t<a href=\"/\" title=\"FDA Homepage\">\n            <picture>\n              <!-- Set media breakpoint to value equivalent to $screen-md -->\n              <source media=\"(min-width:992px)\" srcset=\"/themes/custom/preview/assets/images/gov-fda-new-white.svg\">\n              <img src=\"/themes/custom/preview/assets/images/FDA_Logo_Icon_White.svg\" height=\"40px\" alt=\"U.S. Food and Drug Administration logo\">\n            </picture>\n          </a>\n       \t</div>\n\t\t\t\t\n        <div class=\"col-xs-8 col-md-4\">\n        <ul class=\"fda-masthead__item-list\">\n            <li>\n                <button id=\"btn-search\" class=\"btn btn-default btn-sm fda-masthead__btn-search\" aria-expanded=\"false\" aria-controls=\"search-form\" title=\"Open search bar\">\n\t\t\t\t\t<span class=\"fa fa-search\" aria-hidden=\"true\">&nbsp;</span>\n\t\t\t    \t<span class=\"fda-masthead__btn-label\">Search</span>\n\t\t\t\t</button>\n            </li>\n            <li>\n                <button id=\"menu-btn\" class=\"btn btn-default btn-sm fda-masthead__btn-menu collapsed\" href=\"#primary-nav\" data-toggle=\"collapse\" aria-expanded=\"true\">\n                    <span class=\"fa fa-bars\" aria-hidden=\"true\">&nbsp;</span>\n                    <span class=\"fda-masthead__btn-label\">Menu</span>\n                </button>\n            </li>\n        </ul>\n\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<form class=\"fda-masthead__search sr-only\" id=\"search-form\" aria-hidden=\"true\" role=\"search\" action=\"/search\" method=\"GET\" accept-charset=\"UTF-8\">\n\t\t\t\t\t\t\t<div class=\"search-popover\" id=\"search-popover\">\n\t\t\t\t\t\t\t\t<div class=\"input-group pull-right\" id=\"search-group\">\n\t\t\t\t\t\t\t\t\t<label class=\"sr-only\" for=\"search-query\">Search FDA</label>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<input class=\"form-control search-input\" tabindex=\"-1\" id=\"search-query\" name=\"s\" aria-autocomplete=\"list\" aria-haspopup=\"true\" title=\"Enter the terms you wish to search for.\" placeholder=\"Search FDA\"  type=\"text\" /> \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<span class=\"input-group-btn\" id=\"input-group-btn\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" type=\"button\" class=\"btn btn-danger search-btn\" id=\"search-btn\" tabindex=\"-1\" title=\"Search\"><span class=\"fa fa-search\" aria-hidden=\"true\"><span class=\"sr-only\">Submit search</span></span></button>\n\n\t\t\t\t\t\t\t\t\t</span>\n\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</form>\t\t\t\t\t\n\n\t\t\t</div> \n\t\t<nav id=\"primary-nav\" class=\"lcds-primary-nav row collapse\">\t\t\t\t\t<div class=\"col-md-5 col-lg-4\">\n\t\t\t\t\t\t<section class=\"lcds-primary-nav__group lcds-primary-nav__group--bordered\">\n\t\t\t\t\t\t\t<h2 class=\"lcds-primary-nav__group-heading\">Featured</h2>\n\t\t\t\t\t\t\t<ul class=\"lcds-primary-nav__list lcds-primary-nav__list--featured\">\n\t\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"https://contact.fda.gov/report-problem?utm_medium=referral&utm_source=fda_gov_menu\" title=\"Report a Problem with an FDA Regulated Product\">Report a Product Problem</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/about-fda/contact-fda\">Contact FDA</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/regulatory-information/search-fda-guidance-documents\">FDA Guidance Documents</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/safety/recalls-market-withdrawals-safety-alerts\">Recalls, Market Withdrawals and Safety Alerts</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/news-events/newsroom/press-announcements\">Press Announcements</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters\">Warning Letters</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/advisory-committees\">Advisory Committees</a></li>\n\t                <li class=\"lcds-primary-nav__list-item\"><a href=\"/fda-en-espanol\">En Espa&#241ol</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</section>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-7 col-lg-8\">\n          <section class=\"lcds-primary-nav__group lcds-primary-nav__group--bordered\">\n            <h2 class=\"lcds-primary-nav__group-heading\">Products</h2>\n            <ul class=\"lcds-primary-nav__list\">\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/food\">Food</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/drugs\">Drugs</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/medical-devices\">Medical Devices</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/radiation-emitting-products\">Radiation-Emitting Products</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/vaccines-blood-biologics\">Vaccines, Blood, and Biologics</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/animal-veterinary\">Animal and Veterinary</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/cosmetics\">Cosmetics</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/tobacco-products\">Tobacco Products</a></li>\n            </ul>\n          </section>\n          <section class=\"lcds-primary-nav__group lcds-primary-nav__group--bordered\">\n            <h2 class=\"lcds-primary-nav__group-heading\">Topics</h2>\n            <ul class=\"lcds-primary-nav__list\">\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/about-fda\">About FDA</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/combination-products\">Combination Products</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/regulatory-information\">Regulatory Information</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/safety\">Safety</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/emergency-preparedness-and-response\">Emergency Preparedness</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/international-programs\">International Programs</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/news-events\">News and Events</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/training-and-continuing-education\">Training and Continuing Education</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/inspections-compliance-enforcement-and-criminal-investigations\">Inspections and Compliance</a></li>\n\t\t\t\t\t\t\t<li class=\"lcds-primary-nav__list-item\"><a href=\"/science-research\">Science and Research</a></li>\n            </ul>\n          </section>\n          <section class=\"lcds-primary-nav__group lcds-primary-nav__group--bordered\">\n            <h2 class=\"lcds-primary-nav__group-heading\">Information For</h2>\n            <ul class=\"lcds-primary-nav__list\">\n\t            <li class=\"lcds-primary-nav__list-item\"><a href=\"/consumers\">Consumers</a></li>\n\t            <li class=\"lcds-primary-nav__list-item\"><a href=\"/patients\">Patients</a></li>\n\t            <li class=\"lcds-primary-nav__list-item\"><a href=\"/industry\">Industry</a></li>\n\t            <li class=\"lcds-primary-nav__list-item\"><a href=\"/health-professionals\">Health Professionals</a></li>\n\t            <li class=\"lcds-primary-nav__list-item\"><a href=\"/federal-state-local-tribal-and-territorial-officials\">Federal, State and Local Officials</a></li>\n            </ul>\n          </section>\n\t\t\t\t\t</div>\n\t      </nav>\n    </header>\n\n<div class=\"col-xs-12 block-prev-message\">\n\t<div data-drupal-messages-fallback class=\"hidden\"></div>\n\n</div>\n\n                              \n                                                                     <section id=\"block-entityviewcontent-15\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n      \n    <ol class=\"lcds-breadcrumb visible-md visible-lg\">\n          <li >\n                  <a href=\"/\">Home</a>\n              </li>\n          <li >\n                  <a href=\"/medical-devices\">Medical Devices</a>\n              </li>\n          <li >\n                  <a href=\"/medical-devices/products-and-medical-procedures\">Products and Medical Procedures</a>\n              </li>\n          <li >\n                  <a href=\"/medical-devices/products-and-medical-procedures/in-vitro-diagnostics\">In Vitro Diagnostics</a>\n              </li>\n          <li >\n                  <a href=\"/medical-devices/in-vitro-diagnostics/precision-medicine\">Precision Medicine</a>\n              </li>\n          <li >\n                  <a class=\"current-link\">Table of Pharmacogenetic Associations</a>\n              </li>\n      </ol>\n\n\n\n\n<ol class=\"lcds-breadcrumb visible-sm visible-xs\">\n  <li>\n    <a href=\"/medical-devices/in-vitro-diagnostics/precision-medicine\" title=\"Precision Medicine\">\n     Precision Medicine\n    </a>\n  </li>\n</ol>\n\n  </section>\n\n<section id=\"block-entityviewcontent\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n      \n<div class=\"lcds-section-nav-container hidden-md hidden-lg\">\n<a class=\"lcds-button--expandable collapsed hidden-md hidden-lg\" data-toggle=\"collapse\" href=\"#section-nav\" >In this section</a>\n\n<nav id=\"section-nav\" class=\"lcds-card lcds-section-nav lcds-section-nav hidden-md hidden-lg collapse\">\n\n    <ul class=\"lcds-section-nav__list\">\n\n      <li>\n\n              <a href=\"/medical-devices/in-vitro-diagnostics/precision-medicine\" title=\"Precision Medicine\" class=\"lcds-section-nav__section-link lcds-section-nav__link lcds-section-nav__parent-link visible-xs-block visible-sm-block\">\n                                        Precision Medicine\n                    </a>\n\n                        <div class=\"views-element-container form-group\"><div class=\"view view-in-this-section view-id-in_this_section view-display-id-block_5 js-view-dom-id-76ef4b4f41f790916e8161fa5b73c8d0ec616c7c855afc30db2cf3aae5bc19a9\">\n  \n    \n      \n  \n      <div>\n  \n  <ul class=\"lcds-section-nav__section-link__active lcds-section-nav__list\">\n\n          <li><a href=\"/medical-devices/precision-medicine/table-pharmacogenetic-associations\" class=\"lcds-section-nav__link\">Table of Pharmacogenetic Associations</a></li>\n          <li><a href=\"/medical-devices/precision-medicine/fda-recognition-public-human-genetic-variant-databases\" class=\"lcds-section-nav__link\">FDA Recognition of Public Human Genetic Variant Databases</a></li>\n    \n  </ul>\n\n</div>\n\n\n  \n          </div>\n</div>\n\n\n                        <div class=\"views-element-container form-group\"><div class=\"view view-in-this-section-sub view-id-in_this_section_sub view-display-id-block_2 js-view-dom-id-5d5f930e36bc45da54e8e951c4cf9e787504bc50a7b5e92daec42ba4ea0eaa0e\">\n  \n    \n      \n  \n          </div>\n</div>\n\n\n      </li>\n\n    </ul>\n\n</nav>\n</div>\n\n  </section>\n\n\n\n\n\n\n                                \n      <main>\n\n                                 <article id=\"main-content\" class=\"article main-content container-fluid\" role=\"article\">\n          \n                                                                <header class=\"row content-header\">\n                         <section id=\"block-entityviewcontent-2\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n      <div class=\"col-sm-12 col-md-8 col-md-offset-2\">\n\n  \n  <h1 class=\"content-title text-center\">Table of Pharmacogenetic Associations</h1>\n  \n  \t</div>\n\n  </section>\n\n\n\n\n\n\n                      </header>\n                              \n                                                          \n                              <aside class=\"col-md-2\" role=\"complementary\">\n                  <section id=\"block-entityviewcontent-3\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n        <div class=\"region region-\">\n        <nav id=\"section-nav\"class=\"lcds-card lcds-section-nav lcds-section-nav--side hidden-xs hidden-sm\">\n      <ul class=\"lcds-section-nav__list lcds-section-nav--side__list\">\n        <li>\n\n                    <a href=\"/medical-devices/in-vitro-diagnostics/precision-medicine\" class=\"lcds-section-nav__link lcds-section-nav--side__link lcds-section-nav__parent-link lcds-section-nav--side__parent-link\">\n                                        Precision Medicine\n                      </a>\n\n          \n                        <div class=\"views-element-container form-group\"><div class=\"view view-in-this-section view-id-in_this_section view-display-id-block_4 js-view-dom-id-5f2ca3c5b8488167b2a3370f9ea2e9cc3dc3269451f058de10c849c5f4cff6ba\">\n  \n    \n      \n  \n      <div class=\"item-list\">\n  \n  <ul class=\"lcds-section-nav__active lcds-section-nav__list lcds-section-nav--side__list\">\n\n          <li><a href=\"/medical-devices/precision-medicine/table-pharmacogenetic-associations\" class=\"lcds-section-nav__link lcds-section-nav--side__link\">Table of Pharmacogenetic Associations</a></li>\n          <li><a href=\"/medical-devices/precision-medicine/fda-recognition-public-human-genetic-variant-databases\" class=\"lcds-section-nav__link lcds-section-nav--side__link\">FDA Recognition of Public Human Genetic Variant Databases</a></li>\n    \n  </ul>\n\n</div>\n\n\n  \n          </div>\n</div>\n\n\n                        <div class=\"views-element-container form-group\"><div class=\"view view-in-this-section-sub view-id-in_this_section_sub view-display-id-block_1 js-view-dom-id-4ba891ce7809afe9201147474cc01fd62af72f347a129a62e973e4df1176d281\">\n  \n    \n      \n  \n          </div>\n</div>\n\n\n        </li>\n      </ul>\n    </nav>\n    </div>\n\n  </section>\n\n\n                </aside>\n              \n                                                          \n              <div class=\"col-md-8\" role=\"main\">\n\n                            \n                            \n                            \n                            \n                                              \n  \n<p>Pharmacogenetic tests, along with other information about patients and their disease or condition, can play an important role in drug therapy. When a health care provider is considering prescribing a drug, knowledge of a patient's genotype may be used to aid in determining a therapeutic strategy, determining an appropriate dosage, or assessing the likelihood of benefit or toxicity.</p><h2>On this page:</h2><ul><li><a href=\"#about\">About the Table</a></li><li><a href=\"#section1\">Section 1: Pharmacogenetic Associations for which the Data Support Therapeutic Management Recommendations</a></li><li><a href=\"#section2\">Section 2: Pharmacogenetic Associations for which the Data Indicate a Potential Impact on Safety or Response</a></li><li><a href=\"#section3\">Section 3: Pharmacogenetic Associations for which the Data Demonstrate a Potential Impact on Pharmacokinetic Properties Only</a></li><li><a href=\"#updates\">Updates to the Table</a></li><li><a href=\"#resources\">Additional Resources</a></li></ul><hr><h2><a class=\"ck-anchor\" id=\"about\"></a>About the Table</h2><p>For the pharmacogenetic associations listed in this table, the FDA has evaluated and believes there is sufficient scientific evidence to suggest that subgroups of patients with certain genetic variants, or genetic variant-inferred phenotypes (such as affected subgroup in the table below), are likely to have altered drug metabolism, and in certain cases, differential therapeutic effects, including differences in risks of adverse events.</p><p>The fact that the&nbsp;FDA has included a particular gene-drug interaction in the table does not necessarily mean the FDA advocates using a pharmacogenetic test before prescribing the corresponding medication, unless the test is a companion diagnostic. Tests that are essential for the safe and effective use of a therapeutic product, including those that identify patients for which the drug is contraindicated, are companion diagnostics.</p><p>This table is not intended to affect current regulatory requirements or policies, including the FDA's policy regarding companion diagnostics: <a href=\"/regulatory-information/search-fda-guidance-documents/in-vitro-companion-diagnostic-devices\" data-entity-type=\"node\" data-entity-uuid=\"461d2f19-d95e-4585-ba3a-cfbc6e7b86e6\" data-entity-substitution=\"canonical\" title=\"In Vitro Companion Diagnostic Devices\">Guidance for Industry and FDA Staff: In Vitro Companion Diagnostic Devices</a>. Nor is the table intended to make an assessment on the safe and effective use of, or regulatory requirements for, tests that detect variants in the referenced genes, or to provide comprehensive information on the described gene-drug interactions.</p><p>Specific information regarding therapeutic management is provided for some pharmacogenetic associations listed in the table, but most of the associations listed have not been evaluated in terms of the impact of genetic testing on clinical outcomes, such as improved therapeutic effectiveness or increased risk of specific adverse events. In addition, clinical studies, if available, may only have linked genetic variation to a drug's pharmacokinetics (such as the way in which the drug is metabolized), and differences in drug efficacy or safety across different genotype subgroups may not be known. If no statements related to efficacy or toxicity are provided, the scientific evidence the FDA reviewed was considered insufficient to support such associations.</p><p>The FDA recognizes that practitioners will take into account different sources and strengths of evidence and will make prescribing decisions based on their judgment about which treatments are appropriate for individual patients. In particular, each patient's genetic makeup is only one of many factors that may impact drug concentrations and response, highlighting the fact that information provided in this table is limited to certain pharmacogenetic associations only and does not provide comprehensive information needed for safe and effective use of a drug. Accordingly, health care providers should refer to FDA-approved labeling for prescribing information, including monitoring instructions and information on other factors that may affect drug concentrations, benefits, and risks. In this context, the information in this Table is intended primarily for prescribers, and patients should not adjust their medications without consulting their prescriber.</p><p>This version of the table is limited to pharmacogenetic associations that are related to drug metabolizing enzyme gene variants, drug transporter gene variants, and gene variants that have been related to a predisposition for certain adverse events. The FDA recognizes that various other pharmacogenetic associations exist that are not listed here, and this table will be updated periodically with additional pharmacogenetic associations supported by sufficient scientific evidence.</p><p>The FDA has opened a <a href=\"https://www.regulations.gov/docket?D=FDA-2020-N-0839\">docket</a> for stakeholders—including scientific and medical communities, patients, providers, and industry—to offer specific comments on pharmacogenetic associations that the FDA should or should not include in this table, along with the rationale and underlying evidence that supports the pharmacogenetic association.</p><p>Please submit all comments to the open <a href=\"https://www.regulations.gov/docket?D=FDA-2020-N-0839\">docket</a>. Please submit any questions to <a href=\"mailto:PGx@fda.hhs.gov\">PGx@fda.hhs.gov</a>.</p><h2><a class=\"ck-anchor\" id=\"section1\"></a>Section 1: Pharmacogenetic Associations for which the Data Support Therapeutic Management Recommendations</h2><div class=\"table-responsive lcds-datatable lcds-datatable--ckeditor\"><table class=\"table table-striped\" aria-readonly=\"true\" data-searching=\"true\" data-order=\"[ 0, &quot;asc&quot; ]\" data-excel-button=\"true\" data-page-length=\"25\" data-paging=\"true\" role=\"grid\"><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Gene</th><th scope=\"col\">Affected Subgroups+</th><th scope=\"col\">Description of Gene-Drug Interaction</th></tr></thead><tbody><tr><td><strong>Abacavir</strong></td><td>HLA-B</td><td>*57:01 allele positive</td><td>Results in higher adverse reaction risk (hypersensitivity reactions). Do not use abacavir in patients positive for HLA-B*57:01.</td></tr><tr><td><strong>Abrocitinib</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and may result in higher adverse reaction risk. Dosage adjustment is recommended. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Amifampridine</strong></td><td>NAT2</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. Use lowest recommended starting dosage and monitor for adverse reactions. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Amifampridine Phosphate</strong></td><td>NAT2</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Use lowest recommended starting dosage (15 mg/day) and monitor for adverse reactions.</td></tr><tr><td><strong>Amikacin</strong></td><td>MT-RNR1</td><td>m.1555A&gt;G variant carriers</td><td>Results in higher adverse reaction risk (ototoxicity). Consider alternative treatments other than aminoglycosides.</td></tr><tr><td><strong>Amphetamine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>May affect systemic concentrations and adverse reaction risk. Consider lower starting dosage or use alternative agent.</td></tr><tr><td><strong>Aripiprazole</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. Dosage adjustment is recommended. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Aripiprazole Lauroxil</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Dosage adjustment is recommended. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Atomoxetine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. Adjust titration interval and increase dosage if tolerated. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Azathioprine</strong></td><td>TPMT and/or NUDT15</td><td>intermediate or poor metabolizers</td><td>Alters systemic active metabolite concentration and dosage requirements. Results in higher adverse reaction risk (myelosuppression). Consider alternative therapy in poor metabolizers. Dosage reduction is recommended in intermediate metabolizers for NUDT15 or TPMT. Intermediate metabolizers for both genes may require more substantial dosage reductions. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Belinostat</strong></td><td>UGT1A1</td><td>*28/*28 (poor metabolizers)</td><td>May result in higher systemic concentrations and higher adverse reaction risk. Reduce starting dose to 750 mg/m2 in poor metabolizers.</td></tr><tr><td><strong>Belzutifan</strong></td><td>CYP2C19 and/or UGT2B17</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and may result in higher adverse reaction risk (anemia, hypoxia). Monitor patients who are poor metabolizers for both genes for adverse reactions.</td></tr><tr><td><strong>Brexpiprazole</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Dosage adjustment is recommended. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Brivaracetam</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. Consider dosage reductions in poor metabolizers.</td></tr><tr><td><strong>Bupropion and Dextromethorphan</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations of dextromethorphan and may result in higher adverse reaction risk. Use one tablet once daily in the morning (45 mg of dextromethorphan hydrobromide and 105 mg of bupropion hydrochloride) and monitor for adverse reactions (somnolence and dizziness).</td></tr><tr><td><strong>Capecitabine</strong></td><td>DPYD</td><td>partial or complete DPD deficiency</td><td>Results in higher adverse reaction risk (severe, life-threatening, or fatal toxicities). Avoid use in patients with complete DPD deficiency. No dosage has proven safe in patients with complete DPD deficiency. In patients with partial DPD deficiency, individualize the dosage and modify based on tolerability and intent of treatment. Withhold or discontinue in the presence of early-onset or unusually severe toxicity.</td></tr><tr><td><strong>Carbamazepine</strong></td><td>HLA-B</td><td>*15:02 allele positive</td><td>Results in higher adverse reaction risk (severe skin reactions). Avoid use unless potential benefits outweigh risks and consider risks of alternative therapies. Patients positive for HLA-B*15:02 may be at increased risk of severe skin reactions with other drugs that are associated with a risk of Stevens Johnson Syndrome/Toxic Epidermal necrolysis (SJS/TEN). Genotyping is not a substitute for clinical vigilance.</td></tr><tr><td><strong>Celecoxib</strong></td><td>CYP2C9</td><td>poor metabolizers or *3 carriers</td><td>Results in higher systemic concentrations. Reduce starting dose to half of the lowest recommended dose in poor metabolizers. Consider alternative therapy in poor metabolizers&nbsp;with juvenile rheumatoid arthritis.</td></tr><tr><td><strong>Citalopram</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and adverse reaction risk (QT prolongation). The maximum recommended dose is 20 mg.</td></tr><tr><td><strong>Clobazam</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic active metabolite concentrations. Poor metabolism results in higher adverse reaction risk. Dosage adjustment is recommended. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Clopidogrel</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in lower systemic active metabolite concentrations, lower antiplatelet response, and may result in higher cardiovascular risk. Consider use of another platelet P2Y12 inhibitor.</td></tr><tr><td><strong>Clozapine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Dosage reductions may be necessary.</td></tr><tr><td><strong>Codeine</strong></td><td>CYP2D6</td><td>ultrarapid metabolizers</td><td>Results in higher systemic active metabolite concentrations and higher adverse reaction risk (life-threatening respiratory depression and death). Codeine is contraindicated in children under 12 years of age.</td></tr><tr><td><strong>Desflurane</strong></td><td>RYR1 and/or CACNA1S</td><td>pathogenic variant carriers</td><td>Results in higher adverse reaction risk (malignant hyperthermia). Desflurane is contraindicated in patients with known or suspected genetic susceptibility to malignant hyperthermia.</td></tr><tr><td><strong>Deuruxolitinib</strong></td><td>CYP2C9</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and may result in higher adverse reaction risk (thrombosis). Deuruxolitinib is contraindicated in poor metabolizers.</td></tr><tr><td><strong>Deutetrabenazine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and adverse reaction risk (QT prolongation). The maximum recommended dosage should not exceed 36 mg (maximum single dose of 18 mg).</td></tr><tr><td><strong>Donanemab-azbt</strong></td><td>APOE</td><td>ε4/ε4 (ε4 homozygotes)</td><td>Results in higher adverse reaction risk (Amyloid Related Imaging Abnormalities, ARIA). Consider the benefit of donanemab-azbt for the treatment of Alzheimer’s disease and potential risk of serious adverse events associated with ARIA when deciding to initiate treatment with donanemab-azbt.</td></tr><tr><td><strong>Doxepin</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations. Poor metabolizers have higher adverse reaction risk. Dosage reductions may be needed in poor metabolizers.</td></tr><tr><td><strong>Doxepin</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations. Poor metabolizers have higher systemic concentrations and adverse reaction risk. Dosage reductions may be needed in poor metabolizers.</td></tr><tr><td><strong>Dronabinol</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>May result in higher systemic concentrations and higher adverse reaction risk. Monitor for adverse reactions.</td></tr><tr><td><strong>Eliglustat</strong></td><td>CYP2D6</td><td>ultrarapid, normal, intermediate, or poor metabolizers</td><td>Alters systemic concentrations, effectiveness, and adverse reaction risk (QT prolongation). Indicated for normal, intermediate, and poor metabolizer patients. Ultrarapid metabolizers may not achieve adequate concentrations to achieve a therapeutic effect. The recommended dosages are based on CYP2D6 metabolizer status. Coadministration with strong CYP3A inhibitors is contraindicated in intermediate and poor CYP2D6 metabolizers. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Erdafitinib</strong></td><td>CYP2C9</td><td>*3/*3 (poor metabolizers)</td><td>May result in higher systemic concentrations and higher adverse reaction risk. Monitor for adverse reactions.</td></tr><tr><td><strong>Etrasimod&nbsp;</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>May result in higher systemic concentrations with concomitant use of moderate to strong inhibitors of CYP2C8 or CYP3A4. Coadministration with moderate to strong inhibitors of CYP2C8 or CYP3A4 is not recommended in CYP2C9 poor metabolizers.&nbsp;</td></tr><tr><td><strong>Flibanserin</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>May result in higher systemic concentrations and higher adverse reaction risk. Monitor patients for adverse reactions.</td></tr><tr><td><strong>Flucytosine</strong></td><td>DPYD</td><td>complete DPD deficiency</td><td>Results in higher adverse reaction risk (severe toxicity, mucositis, diarrhea, neutropenia, and neurotoxicity). Do not use flucytosine in patients with complete DPD deficiency. If flucytosine toxicity is confirmed or suspected, consider discontinuation of therapy.</td></tr><tr><td><strong>Flurbiprofen</strong></td><td>CYP2C9</td><td>poor metabolizers or *3 carriers</td><td>Results in higher systemic concentrations. Use a reduced dosage in poor metabolizers.</td></tr><tr><td><strong>Fluorouracil</strong></td><td>DPYD</td><td>partial or complete DPD deficiency</td><td>Results in higher adverse reaction risk (severe, life-threatening, or fatal toxicities). No dosage has proven safe in patients with complete DPD deficiency, and insufficient data are available to recommend a dosage in patients with partial DPD deficiency. Withhold or discontinue in the presence of early-onset or unusually severe toxicity.</td></tr><tr><td><strong>Fosphenytoin</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>May result in higher systemic concentrations and higher adverse reaction risk (central nervous system toxicity). Consider starting at the lower end of the dosage range and monitor serum concentrations. Refer to FDA labeling for specific dosing recommendations. Carriers of CYP2C9*3 alleles may be at increased risk of severe cutaneous adverse reactions. Consider avoiding fosphenytoin as an alternative to carbamazepine in patients who are CYP2C9*3 carriers. Genotyping is not a substitute for clinical vigilance and patient management.</td></tr><tr><td><strong>Fosphenytoin</strong></td><td>HLA-B</td><td>*15:02 allele positive</td><td>May result in higher adverse reaction risk (severe cutaneous reactions). Patients positive for HLA-B*15:02 may be at increased risk of Stevens Johnson Syndrome/Toxic Epidermal necrolysis (SJS/TEN). Consider avoiding fosphenytoin as an alternative to carbamazepine in patients who are positive for HLA-B*15:02. Genotyping is not a substitute for clinical vigilance and patient management.</td></tr><tr><td><strong>Gefitinib</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. Monitor for adverse reactions.</td></tr><tr><td><strong>Gentamicin</strong></td><td>MT-RNR1</td><td>m.1555A&gt;G variant carriers</td><td>Results in higher adverse reaction risk (ototoxicity). Consider alternative treatments other than aminoglycosides.</td></tr><tr><td><strong>Iloperidone</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (QT prolongation). Reduce dosage by 50%. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Irinotecan</strong></td><td>UGT1A1</td><td>*1/*6, *1/*28 (intermediate metabolizers) or&nbsp;<br>*6/*6, *6/*28, *28/*28 (poor metabolizers)</td><td>Results in higher systemic active metabolite concentrations and higher adverse reaction risk (severe or life-threatening neutropenia, severe diarrhea). Closely monitor for neutropenia during and after treatment. Consider reducing the starting dosage by at least one level in poor metabolizers and modify the dosage based on individual patient tolerance. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Isoflurane</strong></td><td>RYR1 and/or CACNA1S</td><td>pathogenic variant carriers</td><td>Results in higher adverse reaction risk (malignant hyperthermia). Isoflurane is contraindicated in patients with known or suspected genetic susceptibility to malignant hyperthermia.</td></tr><tr><td><strong>Lamotrigine</strong></td><td>HLA-B</td><td>*15:02 allele positive</td><td>Results in higher adverse reaction risk (severe skin reactions). The risks and benefits of therapy should be weighed when considering use of lamotrigine in patients known to be positive for HLA-B*15:02. Patients positive for HLA-B*15:02 may be at increased risk of severe skin reactions with other drugs that are associated with a risk of Stevens Johnson Syndrome/Toxic Epidermal necrolysis (SJS/TEN). Genotyping is not a substitute for clinical vigilance.</td></tr><tr><td><strong>Lecanemab-irmb</strong></td><td>APOE</td><td>ε4/ε4 (ε4 homozygotes)&nbsp;</td><td>Results in higher adverse reaction risk (Amyloid Related Imaging Abnormalities, ARIA). Consider the benefit of lecanemab-irmb for the treatment of Alzheimer’s disease and potential risk of serious adverse events associated with ARIA when deciding to initiate treatment with lecanemab-irmb.</td></tr><tr><td><strong>Lofexidine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. Monitor for orthostatic hypotension and bradycardia.</td></tr><tr><td><strong>Meclizine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May affect systemic concentrations. Monitor for adverse reactions and clinical effect.</td></tr><tr><td><strong>Meloxicam</strong></td><td>CYP2C9</td><td>poor metabolizers or *3 carriers</td><td>Results in higher systemic concentrations. Consider dose reductions in poor metabolizers. Monitor patients for adverse reactions.</td></tr><tr><td><strong>Metoclopramide</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk. The recommended dosage is lower. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Mercaptopurine</strong></td><td>TPMT and/or NUDT15</td><td>intermediate or poor metabolizers</td><td>Alters systemic active metabolite concentration and dosage requirements. Results in higher adverse reaction risk (myelosuppression). Initial dosages should be reduced in poor metabolizers; poor metabolizers generally tolerate 10% or less of the recommended dosage. Intermediate metabolizers may require dosage reductions based on tolerability. Intermediate metabolizers for both genes may require more substantial dosage reductions. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Milsaperidone&nbsp;</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (QT prolongation). Reduce recommended dosage by 50%. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Mivacurium</strong></td><td>BCHE</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (prolonged neuromuscular blockade). Avoid use in poor metabolizers.</td></tr><tr><td><strong>Nateglinide</strong></td><td>CYP2C9</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and may result in higher adverse reaction risk (hypoglycemia). Dosage reduction is recommended. Increase monitoring frequency for adverse reactions. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Neomycin</strong></td><td>MT-RNR1</td><td>m.1555A&gt;G variant carriers</td><td>Results in higher adverse reaction risk (ototoxicity). Consider alternative treatments other than aminoglycosides.</td></tr><tr><td><strong>Oliceridine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (respiratory depression and sedation). May require less frequent dosing.</td></tr><tr><td><strong>Pantoprazole</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations. Consider dosage reduction in children who are poor metabolizers. No dosage adjustment is needed for adult patients who are intermediate or poor metabolizers.</td></tr><tr><td><strong>Phenytoin</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>May result in higher systemic concentrations and higher adverse reaction risk (central nervous system toxicity). Refer to FDA labeling for specific dosing recommendations. Carriers of CYP2C9*3 alleles may be at increased risk of severe cutaneous adverse reactions. Consider avoiding phenytoin as an alternative to carbamazepine in patients who are CYP2C9*3 carriers. Genotyping is not a substitute for clinical vigilance and patient management.</td></tr><tr><td><strong>Phenytoin</strong></td><td>HLA-B</td><td>*15:02 allele positive</td><td>May result in higher adverse reaction risk (severe cutaneous reactions). Patients positive for HLA-B*15:02 may be at increased risk of Stevens Johnson Syndrome/Toxic Epidermal necrolysis (SJS/TEN). Consider avoiding phenytoin as an alternative to carbamazepine in patients who are positive for HLA-B*15:02. Genotyping is not a substitute for clinical vigilance and patient management.</td></tr><tr><td><strong>Pimozide</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Dosages should not exceed 0.05 mg/kg in children or 4 mg/day in adults who are poor metabolizers and dosages should not be increased earlier than 14 days.</td></tr><tr><td><strong>Piroxicam</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations. Consider reducing dosage in poor metabolizers.</td></tr><tr><td><strong>Pitolisant</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Use lowest recommended starting dosage. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Plazomicin</strong></td><td>MT-RNR1</td><td>m.1555A&gt;G variant carriers</td><td>Results in higher adverse reaction risk (ototoxicity). Consider alternative treatments other than aminoglycosides.</td></tr><tr><td><strong>Propafenone</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (arrhythmia). Avoid use in poor metabolizers taking a CYP3A4 inhibitor.</td></tr><tr><td><strong>Sacituzumab Govitecan-hziy</strong></td><td>UGT1A1</td><td>*28/*28 (poor metabolizers)</td><td>May result in higher systemic concentrations and adverse reaction risk (neutropenia). Monitor for adverse reactions and tolerance to treatment.</td></tr><tr><td><strong>Sevoflurane</strong></td><td>RYR1 and/or CACNA1S</td><td>pathogenic variant carriers</td><td>Results in higher adverse reaction risk (malignant hyperthermia). Sevoflurane is contraindicated in patients with known or suspected genetic susceptibility to malignant hyperthermia.</td></tr><tr><td><strong>Siponimod</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations. Adjust dosage based on genotype. Do not use in patients with CYP2C9 *3/*3 genotype. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Streptomycin</strong></td><td>MT-RNR1</td><td>m.1555A&gt;G variant carriers</td><td>Results in higher adverse reaction risk (ototoxicity). Consider alternative treatments other than aminoglycosides.</td></tr><tr><td><strong>Succinylcholine</strong></td><td>BCHE</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (prolonged neuromuscular blockade). Avoid use in poor metabolizers. May administer test dose to assess sensitivity and administer cautiously via slow infusion.</td></tr><tr><td><strong>Succinylcholine</strong></td><td>RYR1 and/or CACNA1S</td><td>pathogenic variant carriers</td><td>Results in higher adverse reaction risk (malignant hyperthermia). Succinylcholine is contraindicated in patients with known or suspected genetic susceptibility to malignant hyperthermia.</td></tr><tr><td><strong>Tacrolimus</strong></td><td>CYP3A5</td><td>intermediate or normal metabolizers</td><td>Results in lower systemic concentrations, lower probability of achieving target concentrations and may result in higher rejection risk. Measure drug concentrations and adjust dosage based on trough whole blood tacrolimus concentrations.</td></tr><tr><td><strong>Tetrabenazine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. The maximum recommended single dose is 25 mg and should not exceed 50 mg/day.</td></tr><tr><td><strong>Thioguanine</strong></td><td>TPMT and/or NUDT15</td><td>intermediate or poor metabolizers</td><td>Alters systemic active metabolite concentration and dosage requirements. Results in higher adverse reaction risk (myelosuppression). Initial dosages should be reduced in poor metabolizers; poor metabolizers generally tolerate 10% or less of the recommended dosage. Intermediate metabolizers may require dosage reductions based on tolerability. Intermediate metabolizers for both genes may require more substantial dosage reductions. Refer to FDA labeling for specific dosing recommendations.</td></tr><tr><td><strong>Thioridazine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (QT prolongation). Predicted effect based on experience with CYP2D6 inhibitors. Contraindicated in poor metabolizers.</td></tr><tr><td><strong>Tobramycin</strong></td><td>MT-RNR1</td><td>m.1555A&gt;G variant carriers</td><td>Results in higher adverse reaction risk (ototoxicity). Consider alternative treatments other than aminoglycosides.</td></tr><tr><td><strong>Tramadol</strong></td><td>CYP2D6</td><td>Ultrarapid metabolizers<a href=\"#ft3\"><sup>3</sup></a></td><td>Results in higher systemic and breast milk active metabolite concentrations, which may result in respiratory depression and death. Contraindicated in children under 12 and in adolescents following tonsillectomy/adenoidectomy. Breastfeeding is not recommended during treatment.</td></tr><tr><td><strong>Valbenazine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic active metabolite concentrations and may result in higher adverse reaction risk (QT prolongation). The recommended dosage &nbsp;for poor metabolizers is 40 mg once daily.</td></tr><tr><td><strong>Venlafaxine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Alters systemic parent drug and metabolite concentrations. Consider dosage reductions.</td></tr><tr><td><strong>Vortioxetine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. The maximum recommended dose is 10 mg.</td></tr><tr><td><strong>Warfarin</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>Alters systemic concentrations and dosage requirements. Select initial dosage, taking into account clinical and genetic factors. Monitor and adjust dosages based on INR.</td></tr><tr><td><strong>Warfarin</strong></td><td>CYP4F2</td><td>V433M variant carriers</td><td>May affect dosage requirements. Monitor and adjust doses based on INR.</td></tr><tr><td><strong>Warfarin</strong></td><td>VKORC1</td><td>-1639G&gt;A variant carriers</td><td>Alters dosage requirements. Select initial dosage, taking into account clinical and genetic factors. Monitor and adjust dosages based on INR.</td></tr></tbody></table></div><h2>&nbsp;</h2><h2><a class=\"ck-anchor\" id=\"section2\"></a>Section 2: Pharmacogenetic Associations for which the Data Indicate a Potential Impact on Safety or Response</h2><div class=\"table-responsive lcds-datatable lcds-datatable--ckeditor\"><table class=\"table table-striped\" aria-readonly=\"true\" data-searching=\"true\" data-excel-button=\"true\" data-order=\"[ 0, &quot;asc&quot; ]\" data-page-length=\"25\" data-paging=\"true\" role=\"grid\"><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Gene</th><th scope=\"col\">Affected Subgroups+</th><th scope=\"col\">Description of Gene-Drug Interaction</th></tr></thead><tbody><tr><td><strong>Aficamten</strong></td><td>CYP2C9</td><td>poor metabolizers</td><td>May result in higher systemic concentrations and higher adverse reaction risk (heart failure). The dose titration and monitoring schedule accounts for differences due to CYP2C9 genetic variation, so adjustments based on CYP2C9 genotype are not necessary. Refer to FDA labeling for specific dosing and monitoring recommendations.</td></tr><tr><td><strong>Allopurinol</strong></td><td>HLA-B</td><td>*58:01 allele positive</td><td>Results in higher adverse reaction risk (severe skin reactions).</td></tr><tr><td><strong>Carbamazepine</strong></td><td>HLA-A</td><td>*31:01 allele positive</td><td>Results in higher adverse reaction risk (severe skin reactions). Consider risk and benefit of carbamazepine use in patients positive for HLA-A*31:01. Genotyping is not a substitute for clinical vigilance.</td></tr><tr><td><strong>Carvedilol</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (dizziness).</td></tr><tr><td><strong>Cevimeline</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>May result in higher adverse reaction risk. Use with caution.</td></tr><tr><td><strong>Codeine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in lower systemic active metabolite concentrations and may result in reduced efficacy.</td></tr><tr><td><strong>Efavirenz</strong></td><td>CYP2B6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (neurotoxicity, QT prolongation).</td></tr><tr><td><strong>Ethanol (Dehydrated Alcohol)</strong></td><td>ALDH2</td><td>*2 carriers</td><td>Results in higher systemic acetaldehyde accumulation and toxicity.</td></tr><tr><td><strong>Isoniazid</strong></td><td>Nonspecific (NAT)</td><td>poor metabolizers</td><td>May result in higher systemic concentrations and adverse reaction risk.</td></tr><tr><td><strong>Lapatinib</strong></td><td>HLA-DRB1</td><td>*07:01 allele positive</td><td>Results in higher adverse reaction risk (hepatotoxicity). Monitor liver function tests regardless of genotype.</td></tr><tr><td><strong>Lapatinib</strong></td><td>HLA-DQA1</td><td>*02:01 allele positive</td><td>Results in higher adverse reaction risk (hepatotoxicity). Monitor liver function tests regardless of genotype.</td></tr><tr><td><strong>Mavacamten</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations and may have higher adverse reaction risk (heart failure). The dose titration and monitoring schedule accounts for differences due to CYP2C19 genetic variation, so adjustments based on CYP2C19 genotype are not necessary. Refer to FDA labeling for specific dosing and monitoring recommendations.</td></tr><tr><td><strong>Nilotinib</strong></td><td>UGT1A1</td><td>*28/*28 (poor metabolizers)</td><td>Results in higher adverse reaction risk (hyperbilirubinemia).</td></tr><tr><td><strong>Oxcarbazepine</strong></td><td>HLA-B</td><td>*15:02 allele positive</td><td>Results in higher adverse reaction risk (severe skin reactions). Patients positive for HLA-B*15:02 may be at increased risk of severe skin reactions with other drugs that are associated with a risk of Stevens Johnson Syndrome/Toxic Epidermal necrolysis (SJS/TEN). Genotyping is not a substitute for clinical vigilance.</td></tr><tr><td><strong>Pazopanib</strong></td><td>HLA-B</td><td>*57:01 allele positive</td><td>May result in higher adverse reaction risk (liver enzyme elevations). Monitor liver function tests regardless of genotype.</td></tr><tr><td><strong>Pazopanib</strong></td><td>UGT1A1</td><td>*28/*28 (poor metabolizers)</td><td>Results in higher adverse reaction risk (hyperbilirubinemia).</td></tr><tr><td><strong>Perphenazine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk.</td></tr><tr><td><strong>Procainamide</strong></td><td>Nonspecific (NAT)</td><td>poor metabolizers</td><td>Alters systemic parent drug and metabolite concentrations. May result in higher adverse reaction risk.</td></tr><tr><td><strong>Seladelpar</strong></td><td>CYP2C9</td><td>poor metabolizers</td><td>May result in higher systemic concentrations and increased risk of adverse reactions when coadministered with moderate to strong CYP3A4 inhibitors.&nbsp;</td></tr><tr><td><strong>Simvastatin</strong></td><td>SLCO1B1</td><td>521 TC or 521 CC (intermediate or poor function transporters)</td><td>Results in higher systemic concentrations and higher adverse reaction risk (myopathy). The risk of adverse reaction (myopathy) is higher for patients on 80 mg than for those on lower doses.</td></tr><tr><td><strong>Sulfamethoxazole and Trimethoprim</strong></td><td>Nonspecific (NAT)</td><td>poor metabolizers</td><td>May result in higher adverse reaction risk.</td></tr><tr><td><strong>Sulfasalazine</strong></td><td>Nonspecific (NAT)</td><td>poor metabolizers</td><td>Results in higher systemic metabolite concentrations and higher adverse reaction risk.</td></tr><tr><td><strong>Tolterodine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations and higher adverse reaction risk (QT prolongation).</td></tr><tr><td><strong>Tramadol</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in lower systemic active metabolite concentrations and may result in reduced efficacy.</td></tr><tr><td><strong>Voriconazole</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations and may result in higher adverse reaction risk.</td></tr></tbody></table></div><h2>&nbsp;</h2><h2><a class=\"ck-anchor\" id=\"section3\"></a>Section 3: Pharmacogenetic Associations for which the Data Demonstrate a Potential Impact on Pharmacokinetic Properties Only</h2><p>The impact of these genetic variants or genetic variant inferred phenotypes on the safety or response of the corresponding drug has not been established.</p><div class=\"table-responsive lcds-datatable lcds-datatable--ckeditor\"><table class=\"table table-striped\" aria-readonly=\"true\" data-searching=\"true\" data-order=\"[ 0, &quot;asc&quot; ]\" data-excel-button=\"true\" data-page-length=\"25\" data-paging=\"true\" role=\"grid\"><thead><tr><th scope=\"col\">Drug</th><th scope=\"col\">Gene</th><th scope=\"col\">Affected Subgroups+</th><th scope=\"col\">Description of Gene-Drug Interaction</th></tr></thead><tbody><tr><td><strong>Amitriptyline</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Amoxapine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Atorvastatin</strong></td><td>SLCO1B1</td><td>521 CC (poor function transporters)</td><td>May result in higher systemic concentrations.</td></tr><tr><td><strong>Avatrombopag</strong></td><td>CYP2C9</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Carisoprodol</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Use with caution.</td></tr><tr><td><strong>Clomipramine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Darifenacin</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Desipramine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Dexlansoprazole</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Diazepam</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>May affect systemic concentrations.</td></tr><tr><td><strong>Dolutegravir</strong></td><td>UGT1A1</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Donepezil</strong></td><td>CYP2D6</td><td>ultrarapid or poor metabolizers</td><td>Alters systemic concentrations.</td></tr><tr><td><strong>Elagolix</strong></td><td>SLCO1B1</td><td>521 CC (poor function transporters)</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Escitalopram</strong></td><td>CYP2C19</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Esomeprazole</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Fesoterodine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic active metabolite concentrations.</td></tr><tr><td><strong>Flecainide</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Fluvoxamine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Use with caution.</td></tr><tr><td><strong>Galantamine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Titrate dosage based on tolerability.</td></tr><tr><td><strong>Hydralazine</strong></td><td>Nonspecific (NAT)</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Ibuprofen</strong></td><td>CYP2C9</td><td>poor metabolizers or *3 carriers</td><td>May result in higher systemic concentrations.</td></tr><tr><td><strong>Imipramine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Lansoprazole</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Metoprolol</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Mirabegron</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Nebivolol</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>May result in higher systemic concentrations.</td></tr><tr><td><strong>Nortriptyline</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Omeprazole</strong></td><td>CYP2C19</td><td>intermediate or poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Paroxetine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Propranolol</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>May affect systemic concentrations.</td></tr><tr><td><strong>Protriptyline</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Rabeprazole</strong></td><td>CYP2C19</td><td>poor metabolizers</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Raltegravir</strong></td><td>UGT1A1</td><td>*28/*28 (poor metabolizers)</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Risperidone</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Alters systemic parent drug and metabolite concentrations.</td></tr><tr><td><strong>Rosuvastatin</strong></td><td>SLCO1B1</td><td>521 CC (poor function transporters)</td><td>Results in higher systemic concentrations.</td></tr><tr><td><strong>Tamoxifen</strong></td><td>CYP2D6</td><td>intermediate or poor metabolizers</td><td>Results in lower systemic active metabolite concentrations. The impact of CYP2D6 intermediate or poor metabolism on efficacy is not well established.</td></tr><tr><td><strong>Tamsulosin</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>Results in higher systemic concentrations. Predicted effect based on experience with CYP2D6 inhibitors. Use with caution.</td></tr><tr><td><strong>Trimipramine</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>May alter systemic concentrations.</td></tr><tr><td><strong>Trospium and Xanomeline</strong></td><td>CYP2D6</td><td>ultrarapid, intermediate, or poor metabolizers</td><td>Alters systemic concentrations of xanomeline.</td></tr><tr><td><strong>Viloxazine</strong></td><td>CYP2D6</td><td>poor metabolizers</td><td>May result in higher systemic concentrations.</td></tr></tbody></table></div><p>+ The table describes gene-drug interactions and indicates specific affected subgroup(s) to which the interaction applies. The affected subgroup(s) may be a specific genotype (e.g., UGT1A1*28/*28), carriers of a specific genetic variant (e.g., CYP2C9 *3 carriers), carriers of a type of genetic variant (e.g., “pathogenic variant carriers”), or a genotype-inferred haplotype or phenotype (e.g., HLA-B*15:02, CYP2D6 poor metabolizer, partial or complete DPD deficiency).&nbsp;</p><p>Normal metabolizers or normal function transporters do not have genetic variants that are expected to impact metabolism or transport function. In general, ultrarapid metabolizers have two or more copies of a genetic variant that increases metabolic function; intermediate metabolizers or reduced function transporters are individuals who have one or two copies of a genetic variant that reduces the ability to metabolize or transport a drug; and poor metabolizers or poor function transporters are individuals who generally have two copies of a genetic variant that results in little to no ability to metabolize or transport a drug. Individuals with partial or complete enzyme deficiency also generally have little to no ability to metabolize a drug.</p><p>In general, variant pathogenicity is assessed based on prior clinical experience, functional studies, prevalence information, and other evidence. Genetic variant classification may vary, which can introduce uncertainty in variant pathogenicity determinations. Protocols for the types of evidence used for evaluating variants, and their corresponding strengths, should 1) incorporate multiple lines of scientific evidence, where available, and appropriately weigh each line of evidence, 2) use a tiered system of assertions and adequately describe the meanings of each tier, 3) incorporate unique details of the gene/disease or condition being evaluated, where available and applicable, and 4) be validated.</p><p>When evaluating if a gene-drug association is supported, the FDA believes it is important to ensure that there is sufficient scientific evidence to support:</p><ul><li>The relationship between the detected genetic variant and as appropriate, diplotypes, and the affected subgroup, and</li><li>The association between the affected subgroup and the claimed gene-drug interaction.</li></ul><p>In some cases, a specific genetic variant may affect the metabolism of different drugs in different ways. In cases where the association is limited to specific genetic variants and does not apply to all individuals with the genotype-inferred phenotype, the specific variants are provided in the table. In cases where individual genetic variants are not listed in the table, the FDA believes there is sufficient scientific evidence to generally support the described association for the genotype-inferred phenotype subgroup, provided specific genetic variants are determined to confer the genotype-inferred phenotype based on sufficient scientific evidence.</p><p>For example, when considering, as described in the table, that poor and intermediate metabolizers of CYP2C19 have higher systemic active metabolite concentrations, higher adverse reaction risk, and dosage adjustments are recommended when taking clobazam, sufficient scientific evidence supports the following, with respect to the *2 allele:</p><ul><li>The functionality of the *2 variant is known, such as *2 variant results in a loss of CYP2C19 enzyme function, and</li><li>*1/*2 confers an intermediate metabolizer phenotype and *2/*2 confers a poor metabolizer phenotype.</li></ul><h2><a class=\"ck-anchor\" id=\"updates\"></a>Updates to the Table</h2><ul><li><strong>September 10, 2026: </strong>The FDA updated the footnote and made the following changes:<ul><li><strong>Section 1:</strong> Added plazomicin, tobramycin, amikacin, streptomycin, neomycin, gentamicin, lecanemab-irmb, desflurane, isoflurane, sevoflurane, succinylcholine, etrasimod, bupropion and dextromethorphan, donanemab-azbt, deuruxolitinib, flucytosine, lamotrigine, etrasimod, milsaperidone, and doxepin. Updated the Affected Subgroups and/or Description of Gene-Drug Interaction for iloperidone, valbenazine, capecitabine and fluorouracil.</li><li><strong>Section 2: </strong>Added seladelpar, aficamten and ethanol (dehydrated alcohol). Updated the Description of Gene-Drug Interaction for mavacamten and efavirenz.</li><li><strong>Section 3: </strong>Added flecainide, trospium and xanomeline.</li></ul></li><li><strong>October 26, 2022:</strong> The FDA made these changes:<ul><li><strong>Section 1:</strong> Added abrocitinib and nateglinide. Updated the Affected Subgroups and Description of Gene-Drug Interaction for irinotecan.</li><li><strong>Section 2:&nbsp;</strong>Added mavacamten.</li></ul></li><li><strong>May 24, 2022: </strong>The FDA made these changes:<ul><li><strong>Section 1:</strong> Added belzutifan and updated the Affected Subgroups and Description of Gene-Drug Interaction for pantoprazole.</li><li><strong>Section 2:</strong> Added tramadol.</li><li><strong>Section 3:</strong> Added lansoprazole.</li></ul></li><li><strong>November 8, 2021:</strong>&nbsp; The FDA made these additions:<ul><li><strong>Section 1: </strong>Added fosphenytoin and phenytoin.</li><li><strong>Section 3:&nbsp;</strong>Added viloxazine.</li></ul></li><li><strong>May 24, 2021:</strong> The FDA made these changes:<ul><li><strong>Section 1:</strong> Added oliceridine and updated the Affected Subgroups and Description of Gene-Drug Interaction for celecoxib, flurbiprofen, and meloxicam.</li><li><strong>Section 3: </strong>Added Ibuprofen.</li></ul></li><li><strong>March 18, 2021:</strong> The FDA made these changes:<ul><li><strong>Section 1:</strong> Added meloxicam, pitolisant, and sacituzumab. Updated the Description of Gene-Drug Interaction for tacrolimus.</li><li><strong>Section 2:</strong> Moved voriconazole from Section 3 to Section 2 and updated the Description of Gene-Drug Interaction.</li><li><strong>Section 3:</strong> Added atorvastatin and updated the Affected Subgroups and Description of Gene-Drug Interaction for escitalopram.</li></ul></li><li><strong>February 25, 2020:</strong> The FDA corrected an error in the tramadol pharmacogenetic association listed in Section 1. The affected subgroup was previously listed incorrectly as poor metabolizers in the initial version.</li></ul><h2><a class=\"ck-anchor\" id=\"resources\"></a>Additional Resources</h2><ul><li><a href=\"/node/391610\" data-entity-type=\"node\" data-entity-uuid=\"218b2268-a100-4007-adc1-353870fe3987\" data-entity-substitution=\"canonical\">FDA Statement: FDA&nbsp;Announces Collaborative Review of Scientific Evidence to Support Associations Between Genetic Information and Specific Medications</a></li></ul>\n\n<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->\n<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->\n\n\n\n              \n                                            \n              \n            </div>\n\n                                                  \n                          <aside class=\"col-md-2\" role=\"complementary\">\n                <section id=\"block-entityviewcontent-4\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n      \n\n<div class=\"region region-\">\n  <aside class=\"lcds-card lcds-card--border-top\">\n    <ul role=\"menu\" class=\"lcds-description-list\">\n      \n                            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  <li role=\"menuitem\" class=\"node-current-date lcds-description-list__item\">\n    <div>\n      <h2 class=\"lcds-description-list__item-heading\">Content current as of:</h2>\n      <p class=\"lcds-description-list__item-text\"><time datetime=\"2026-09-10T02:52:00Z\">09/10/2026</time>\n</p>\n    </div>\n  </li>\n              \n              \n<li role=\"menuitem\" class=\"lcds-description-list__item\">  \n\t<div>\n\t\t\n\t\t <h2 class=\"lcds-description-list__item-heading\">Regulated Product(s)</h2>\n\t\t <ul role=\"menu\" class=\"lcds-metadata-list\">\n\t\t\t\t\t\t  <li role=\"menuitem\">Medical Devices</li>\n\t\t\t  \t\t\t     \t\t\t  \t\t\t\t\t\t              \n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t</ul>\n\t \n\t\t\t     \n\t\t\t\t\t\t       \n\n\t\t\t  \n\t\t\t\t\t\t  \n\n\t\t\t  \n\t\t\t\t\t\t \n\t</div>\n</li>   \n\n    </ul>\n\n  </aside>\n</div>\n\n\n  </section>\n\n\n              </aside>\n            \n                 </article>        \n      </main>\n\n    </div>  </div>\n<div id=\"fda-survey-comments\"></div>\n<script src=https://touchpoints.app.cloud.gov/touchpoints/0eb673d9.js async></script>\n<button class=\"btn btn-primary btn-vertical\" id=\"survey-btn\">Feedback</button>\n<script src=https://touchpoints.app.cloud.gov/touchpoints/d45bb814.js async=\"\"></script>\n                <div class=\"region region-subscribe\">\n    <section id=\"block-entityviewcontent-5\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n      \n\n  </section>\n\n\n  </div>\n\n  \n      <footer id=\"footer\" class=\"lcds-footer container-fluid\">\n        \n    <div class=\"row lcds-footer__primary\">\n    <nav class=\"text-center\">\n      <div class=\"col-sm-4\">\n        <ul class=\"nav\">\n          <li><a href=\"/about-fda/about-website/fdagov-archive\" >FDA Archive</a></li>\n          <li><a href=\"/about-fda\" >About FDA</a></li>\n          <li><a href=\"/about-fda/about-website/internet-accessibility\" >Accessibility</a></li>\n        </ul>\n      </div>\n      <div class=\"col-sm-4\">\n        <ul class=\"nav\">\n          <li><a href=\"/about-fda/visitor-information\" >Visitor Information</a> </li>\n          <li><a href=\"/about-fda/about-website/website-policies\" >Website Policies / Privacy</a></li>\n          <li><a href=\"/about-fda/jobs-and-training-fda/no-fear-act\" >No FEAR Act</a></li>\n          <li><a href=\"https://www.hhs.gov/vulnerability-disclosure-policy/index.html\" >Vulnerability Disclosure Policy</a></li>\n        </ul>\n      </div>\n      <div class=\"col-sm-4\">\n        <ul class=\"nav\">\n          <li><a href=\"/regulatory-information/freedom-information\" title=\"Freedom of Information Act\">FOIA</a></li>\n          <li><a href=\"https://www.hhs.gov/\" title=\"Health and Human Services\" target=\"_blank\">HHS.gov</a></li>\n          <li><a href=\"https://www.usa.gov/\" target=\"_blank\">USA.gov</a></li>\n        </ul>\n      </div>\n    </nav>\n  </div>\n    <div class=\"row lcds-footer__secondary\">\n    <div class=\"col-sm-12 col-md-6 col-lg-4 lcds-footer__social-links\">\n      <a href=\"/about-fda/contact-fda\" class=\"btn btn-default btn-md\">Contact FDA</a>\n      <a href=\"https://www.facebook.com/FDA\" title=\"Follow FDA on Facebook\" class=\"no-disclaimer\"> \n        <span class=\"fa fa-facebook fa-2x\" aria-hidden=\"true\">\n          <span class=\"sr-only\">Follow FDA on Facebook</span> \n        </span>\n      </a>\n      <a href=\"https://x.com/FDA\" title=\"Follow FDA on X\" class=\"no-disclaimer\">\n        <svg class=\"icon-svg-inline fa-2x\" aria-hidden=\"true\">\n          <use href=\"/themes/custom/preview/assets/images/fa-icons.svg#icon-x-twitter\">\n        </svg>\n        <span class=\"sr-only\">Follow FDA on X</span>\n      </a>\n      <a href=\"https://instagram.com/FDA\" title=\"Follow FDA on Instagram\" class=\"no-disclaimer\">\n        <span class=\"fa fa-instagram fa-2x\" aria-hidden=\"true\"> \n          <span class=\"sr-only\">Follow FDA on Instagram</span>\n        </span>\n      </a>\n      <br class='visible-xs-inline'/>\n      <a href=\"https://www.linkedin.com/company/fda/\" title=\"Follow FDA on LinkedIn\" class=\"no-disclaimer\">\n        <span class=\"fa fa-linkedin fa-2x\" aria-hidden=\"true\"> \n          <span class=\"sr-only\">Follow FDA on LinkedIn</span>\n        </span>\n      </a>\n      <a href=\"https://youtube.com/@US_FDA\" title=\"View FDA videos on YouTube\" class=\"no-disclaimer\">\n        <span class=\"fa fa-youtube fa-2x\" aria-hidden=\"true\"> \n          <span class=\"sr-only\">View FDA videos on YouTube</span>\n        </span>\n      </a>\n      <a href=\"/about-fda/contact-fda/subscribe-podcasts-and-news-feeds\" title=\"Subscribe to FDA RSS feeds\">\n        <span class=\"fa fa-rss fa-2x\" aria-hidden=\"true\">\n          <span class=\"sr-only\">Subscribe to FDA RSS feeds</span>\n        </span>\n      </a>\n    </div>\n    <a href=\"/\" title=\"FDA Homepage\">\n        <div class=\"visible-lg-block col-lg-4 text-center\">\n          <img src=\"/themes/custom/preview/assets/images/FDA_Logo_Icon_White.svg\" height=\"60px\" alt=\"Food and Drug Administration Logo\">\n        </div>\n    </a>\n    <div class=\"col-sm-12 col-md-6 col-lg-4 text-center lcds-footer__contact-number\">\n      <span class=\"fa fa-phone\" aria-hidden=\"true\"> </span> \n     <span class=\"sr-only\">Contact Number</span>\n      1-888-INFO-FDA (1-888-463-6332)\n    </div>\n  </div>\n  \n      <!--END WEBSITE FEEDBACK SNIPPET-->\n  \n\n    </footer>\n    <a href=\"\" id=\"btn-top\" class=\"btn btn-primary btn-top\"><span class=\"sr-only\">Back to </span>Top</a>\n  \n\n  </div>\n\n    \n    <script type=\"application/json\" data-drupal-selector=\"drupal-settings-json\">{\"path\":{\"baseUrl\":\"\\/\",\"pathPrefix\":\"\",\"currentPath\":\"node\\/401202\",\"currentPathIsAdmin\":false,\"isFront\":false,\"currentLanguage\":\"en\"},\"pluralDelimiter\":\"\\u0003\",\"suppressDeprecationErrors\":true,\"fda_ckeditor_enhancements\":{\"basePath\":\"modules\\/custom\\/fda_ckeditor_enhancements\"},\"google_analytics\":{\"account\":\"G-273DTKB5QW\",\"trackOutbound\":true,\"trackMailto\":true,\"trackTel\":true,\"trackDownload\":true,\"trackDownloadExtensions\":\"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip\"},\"bootstrap\":{\"forms_has_error_value_toggle\":1,\"modal_animation\":1,\"modal_backdrop\":\"true\",\"modal_focus_input\":1,\"modal_keyboard\":1,\"modal_select_text\":1,\"modal_show\":1,\"modal_size\":\"\",\"popover_enabled\":1,\"popover_animation\":1,\"popover_auto_close\":1,\"popover_container\":\"body\",\"popover_content\":\"\",\"popover_delay\":\"0\",\"popover_html\":0,\"popover_placement\":\"right\",\"popover_selector\":\"\",\"popover_title\":\"\",\"popover_trigger\":\"click\"},\"ajax\":[],\"user\":{\"uid\":0,\"permissionsHash\":\"1b1b521ce0efd787b9481ef00f514b542eb396217a4d74c357d2ecd6b6b52a2d\"}}</script>\n<script src=\"/files/js/js_nol62-71-VcU-Vm554ii80k_VGa4nFJwcyaILa2bl3s.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=preview&amp;include=eJxdjtEKwzAIRX-oJXsZ7G-CNS4NS6OodHRfv3Ww0A7fjnruzcy5UoQGdfOCFvIfGERpLfQMufIEdTTUIm7DxOzmChKEhVfS4Z4g4oNScdZIbYaGtFBzC4DImgq36Jx3u82sjpyo2z_PYwL_zFTJTvjnPO6_WbxILXtK2G8tXi-3A-wOVHhtlHMHCeSU3duMvegbbCJttQ\"></script>\n<script src=\"/libraries/datatables/media/js/jquery.dataTables.min.js?tlw6cc\"></script>\n<script src=\"/files/js/js_YyYIiMtJciIueQ0BARuCH2PNjjWVtBSQgxhnYkG17UU.js?scope=footer&amp;delta=2&amp;language=en&amp;theme=preview&amp;include=eJxdjtEKwzAIRX-oJXsZ7G-CNS4NS6OodHRfv3Ww0A7fjnruzcy5UoQGdfOCFvIfGERpLfQMufIEdTTUIm7DxOzmChKEhVfS4Z4g4oNScdZIbYaGtFBzC4DImgq36Jx3u82sjpyo2z_PYwL_zFTJTvjnPO6_WbxILXtK2G8tXi-3A-wOVHhtlHMHCeSU3duMvegbbCJttQ\"></script>\n<script src=\"/libraries/datatables/extensions/Responsive/js/dataTables.responsive.min.js?tlw6cc\"></script>\n<script src=\"/libraries/datatables/media/js/dataTables.bootstrap4.min.js?tlw6cc\"></script>\n<script src=\"/files/js/js_ibVfOK-mMRC9AGiOMnu4UnaXEa13E-y45uMq1vXFtik.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=preview&amp;include=eJxdjtEKwzAIRX-oJXsZ7G-CNS4NS6OodHRfv3Ww0A7fjnruzcy5UoQGdfOCFvIfGERpLfQMufIEdTTUIm7DxOzmChKEhVfS4Z4g4oNScdZIbYaGtFBzC4DImgq36Jx3u82sjpyo2z_PYwL_zFTJTvjnPO6_WbxILXtK2G8tXi-3A-wOVHhtlHMHCeSU3duMvegbbCJttQ\"></script>\n\n  <script type=\"text/javascript\"  src=\"/TyMeMpMsql21/uQ/bKpsKgXw7n/c7iuwNXVbwkpVpYm/OyhvFgoadAI/O1J/6BVtZfh0\"></script></body>\n</html>\n"
+    }
+  ]
+}

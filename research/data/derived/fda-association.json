@@ -1,0 +1,33 @@
+{
+  "sourceType": "fda-association-table",
+  "drug": "clopidogrel",
+  "gene": "CYP2C19",
+  "section": "Section 1: Pharmacogenetic Associations for which the Data Support Therapeutic Management Recommendations",
+  "subgroupText": "intermediate or poor metabolizers",
+  "directPhenotypeLabels": [
+    "Intermediate Metabolizer",
+    "Poor Metabolizer"
+  ],
+  "description": "Results in lower systemic active metabolite concentrations, lower antiplatelet response, and may result in higher cardiovascular risk. Consider use of another platelet P2Y12 inhibitor.",
+  "indicationContext": null,
+  "locator": {
+    "tableOrdinal": 1,
+    "rowDrug": "Clopidogrel",
+    "rowGene": "CYP2C19"
+  },
+  "limits": [
+    "This association table is not a drug label.",
+    "No indication-specific scope is supplied in this row.",
+    "Absence from this row is not evidence of safety or lack of association.",
+    "Likely phenotypes are not automatically mapped to this source subgroup."
+  ],
+  "provenance": {
+    "file": "fda-associations.html",
+    "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+    "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+    "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+    "bytes": 82435,
+    "sourceType": "fda-association-table",
+    "snapshotNotLabel": true
+  }
+}

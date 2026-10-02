@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {hash,verifiedFile} from '../dist/resource.mjs';
+const raw=new TextEncoder().encode('{"verified":true}');const sha=await hash(raw);
+test('returns exact verified bytes and parsed data',async()=>{const result=await verifiedFile('fixture',sha,{fetcher:async()=>new Response(raw)});assert.deepEqual(new Uint8Array(result.bytes),raw);assert.equal(result.data.verified,true);});
+test('rejects content tampering',async()=>{await assert.rejects(verifiedFile('fixture',sha,{fetcher:async()=>new Response('{"verified":false}')}),/integrity/);});
+test('rejects unavailable source',async()=>{await assert.rejects(verifiedFile('fixture',sha,{fetcher:async()=>new Response('',{status:503})}),/could not be loaded/);});
+test('bounds streamed body without content length',async()=>{await assert.rejects(verifiedFile('fixture',sha,{maxBytes:4,fetcher:async()=>new Response(raw)}),/supported size/);});
+test('bounds declared size before reading body',async()=>{await assert.rejects(verifiedFile('fixture',sha,{maxBytes:4,fetcher:async()=>new Response(raw,{headers:{'content-length':'17'}})}),/supported size/);});
+test('aborts a hanging request',async()=>{await assert.rejects(verifiedFile('fixture',sha,{timeoutMs:10,fetcher:(_,opts)=>new Promise((resolve,reject)=>opts.signal.addEventListener('abort',()=>reject(new DOMException('Aborted','AbortError'))))}),/timed out/);});
+test('aborts while the response body stalls',async()=>{await assert.rejects(verifiedFile('fixture',sha,{timeoutMs:10,fetcher:async(_,opts)=>new Response(new ReadableStream({start(controller){controller.enqueue(raw.slice(0,3));opts.signal.addEventListener('abort',()=>controller.error(new DOMException('Aborted','AbortError')));}}))}),/timed out/);});

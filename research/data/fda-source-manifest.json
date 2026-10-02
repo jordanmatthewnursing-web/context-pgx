@@ -1,0 +1,9 @@
+{
+  "file": "fda-associations.html",
+  "url": "https://www.fda.gov/medical-devices/precision-medicine/table-pharmacogenetic-associations",
+  "retrievedAt": "2026-09-30T00:46:50.316971+00:00",
+  "sha256": "f0e380cfa1bdcb4964a43823658957a7d3176a87e79353708ca46f8de2b1efd5",
+  "bytes": 82435,
+  "sourceType": "fda-association-table",
+  "snapshotNotLabel": true
+}
