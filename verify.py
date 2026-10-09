@@ -17,7 +17,7 @@ def main():
     after={name:hashlib.sha256((ROOT/'dist'/name).read_bytes()).hexdigest() for name in artifacts}
     if before!=after:raise SystemExit('Reproduction changed packaged evidence. Review source changes before publishing.')
     run([sys.executable,'research/scripts/snapshots.py','replay','dist/evidence.json'],ROOT)
-    run(['node','--test','tests/resource.test.mjs','tests/genetics.test.mjs','tests/findings-replay.test.mjs','tests/medication-context.test.mjs','tests/insights.test.mjs','tests/slco1b1.test.mjs','tests/import-recovery.test.mjs','tests/evidence-path.test.mjs','tests/dpyd.test.mjs'],ROOT)
+    run(['node','--test','tests/resource.test.mjs','tests/genetics.test.mjs','tests/findings-replay.test.mjs','tests/medication-context.test.mjs','tests/insights.test.mjs','tests/slco1b1.test.mjs','tests/import-recovery.test.mjs','tests/evidence-path.test.mjs','tests/dpyd.test.mjs','tests/readable-report.test.mjs'],ROOT)
     run(['node','--check','dist/app.js'],ROOT)
     print('Offline reproduction passed: research, resource and genetic-reader tests, and byte-identical evidence artifacts.')
 if __name__=='__main__':main()
